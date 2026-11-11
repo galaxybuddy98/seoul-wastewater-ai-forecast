@@ -1,0 +1,14 @@
+__pycache__/
+.pytest_cache/
+*.py[cod]
+.env
+.planning/
+.serena/
+.codex/
+.agents/
+data/raw/
+data/processed/
+data/external/
+data/cache/
+cache/
+results/

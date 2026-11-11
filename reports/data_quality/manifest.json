@@ -1,0 +1,26 @@
+{
+  "generated_at": "2026-11-11T05:03:23.907438+09:00",
+  "source_files": [
+    "서울시 물재생센터 수질현황.csv",
+    "서울시 물재생센터 하수처리량.csv"
+  ],
+  "policy": "기술 통계 전용. 보간·삭제·모델 학습 없음. 이상치 경계는 모델 전처리 파라미터가 아님.",
+  "outputs": [
+    "calendar_gaps.csv",
+    "dataset_overview.csv",
+    "duplicate_summary.csv",
+    "flow_component_summary.csv",
+    "flow_group_counts.csv",
+    "influent_daily_multiplicity.csv",
+    "influent_target_outlier_candidates.csv",
+    "influent_target_summary.csv",
+    "missing_runs.csv",
+    "missing_zero_negative_by_center_year.csv",
+    "outlier_distribution.csv",
+    "quality_flow_key_coverage.csv",
+    "quality_group_counts.csv",
+    "treatment_total_hypothesis_summary.csv",
+    "window_sample_availability.csv",
+    "zero_value_events.csv"
+  ]
+}

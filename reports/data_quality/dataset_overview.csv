@@ -1,0 +1,3 @@
+﻿dataset,file,encoding,rows,columns,start_date,end_date,invalid_date_count,sha256
+수질,서울시 물재생센터 수질현황.csv,cp949,74917,11,2016-01-01,2026-09-30,0,d5ad7dba17b99e8721cf8261366381f82a8dd0fe6bd6aa7845601cbd0f3de6d6
+처리량,서울시 물재생센터 하수처리량.csv,cp949,48771,5,2016-01-01,2026-09-30,0,e4f12f7136faf487cb1a0a45278b7a506dc7479d87fd962b9a0971386b8b0443

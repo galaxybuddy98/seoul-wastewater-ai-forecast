@@ -1,0 +1,11 @@
+version: 1
+status: 미검증
+grain: 날짜×센터
+default_method: null
+forbidden_methods:
+  - 산술평균
+required_evidence:
+  - 센터별 처리장·계통 구조
+  - 유입·방류 구분
+  - 처리량과 수질 측정의 대응 관계
+  - 중복 발생 원인
