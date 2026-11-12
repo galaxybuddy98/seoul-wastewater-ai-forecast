@@ -1,0 +1,22 @@
+{
+  "station_id": "108",
+  "period": [
+    "2016-01-01",
+    "2026-09-30"
+  ],
+  "hourly_rows": 94224,
+  "daily_rows": 3926,
+  "original_daily_known": 1581,
+  "original_daily_blank": 2345,
+  "hourly_daily_comparable": 1581,
+  "agreement_within_0_05mm": 1579,
+  "agreement_rate": 0.9987349778621126,
+  "status_counts": {
+    "C_미량강수_또는_미확인": 2345,
+    "A_일자료_확인": 1581
+  },
+  "confirmed_zero_from_hourly": 0,
+  "restored_from_hourly": 0,
+  "remaining_nan": 2345,
+  "rule": "00시 rn은 전날 귀속; 공식 sumRn 우선; 공란은 직접 입증된 경우만 복원"
+}

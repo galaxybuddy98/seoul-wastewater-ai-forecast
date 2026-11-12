@@ -43,7 +43,7 @@ class SeoulApiClient:
         self._api_key = api_key
         self._session = session or build_retrying_session()
         self._timeout = timeout
-        self._base_url = "https://openapi.seoul.go.kr:8088"
+        self._base_url = "https://openapi.seoul.go.kr"
 
     def __repr__(self):
         return "SeoulApiClient(api_key=<비공개>)"
@@ -52,9 +52,13 @@ class SeoulApiClient:
         if end - start + 1 > 1000:
             raise ValueError("서울 API는 요청당 최대 1,000건입니다")
         url = f"{self._base_url}/{self._api_key}/json/{service_name}/{start}/{end}/"
-        response = self._session.get(url, timeout=self._timeout)
-        response.raise_for_status()
-        return parse_page(response.json(), service_name)
+        try:
+            response = self._session.get(url, timeout=self._timeout)
+            response.raise_for_status()
+            payload = response.json()
+        except Exception:
+            raise SeoulApiError(f"{service_name} 요청 실패(인증키 비공개)") from None
+        return parse_page(payload, service_name)
 
     def iter_rows(self, service_name):
         first = self.fetch_page(service_name, 1, 1000)

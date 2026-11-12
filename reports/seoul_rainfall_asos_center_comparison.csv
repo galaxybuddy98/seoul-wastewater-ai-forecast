@@ -1,0 +1,5 @@
+﻿facility,station_id,station_name,asos_blank_days,asos_blank_municipal_confirmed_days,asos_blank_municipal_zero_days,asos_blank_municipal_positive_days,both_numeric_days,rain_occurrence_agreement,numeric_mae_mm
+중랑물재생센터,SEOUL_NAME_554bb60ca7,성동구청,2345,1985,1972,13,1369,0.8422205989773557,2.542293644996348
+난지물재생센터,SEOUL_NAME_87f9dc9fe1,마포구청,2345,1927,1907,20,1302,0.837173579109063,2.3625192012288787
+탄천물재생센터,SEOUL_NAME_1ec4246a5e,세곡동,2345,1834,1800,34,1263,0.8083927157561361,4.379651623119557
+서남물재생센터,SEOUL_NAME_836c04199a,공항동P,2345,1793,1772,21,1262,0.8272583201267829,3.0862123613312202

@@ -1,0 +1,5 @@
+facility,station_id,station_name,selection_status,selection_basis,representation_limit
+중랑물재생센터,SEOUL_NAME_554bb60ca7,성동구청,provisional,센터가 성동구에 있고 목표기간 확정률이 후보 중 높음,광범위한 중랑 처리구역 전체를 대표한다고 볼 수 없음
+난지물재생센터,SEOUL_NAME_87f9dc9fe1,마포구청,provisional,난지센터와 인접한 서울 서북권 후보이며 은평계 후보보다 확정률이 높음,경기도 고양시 소재 센터 및 전체 처리구역 대표성 미확인
+탄천물재생센터,SEOUL_NAME_1ec4246a5e,세곡동,provisional,강남구 남동부의 센터 인접 후보,탄천 처리구역 전체의 공간 강우를 대표한다고 볼 수 없음
+서남물재생센터,SEOUL_NAME_836c04199a,공항동P,provisional,강서구 마곡동 센터 인접 후보이며 강서구청보다 확정률이 높음,서남 처리구역 전체의 공간 강우를 대표한다고 볼 수 없음

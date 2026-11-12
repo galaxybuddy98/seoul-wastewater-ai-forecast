@@ -1,0 +1,45 @@
+{
+  "random_seed": 42,
+  "train": "2016-01-01~2022-12-31",
+  "validation": "2023-01-01~2024-12-31",
+  "test_locked": "2025-01-01~2026-09-30",
+  "selection_metric": "Validation MAE",
+  "models": "Persistence, LightGBM fixed configuration",
+  "rainfall_experiment": "제외: sumRn 공란을 무강수 0mm로 확정할 수 없음",
+  "flow_experiment": "정확키 연결 및 연속 완전사례만; 동일 행 reference와 비교",
+  "selections": {
+    "bod_mg_l": {
+      "variant": "quality_temperature",
+      "window_days": 14,
+      "validation_mae": 23.9316815295517,
+      "selection_basis": "Validation MAE; Test 미사용",
+      "test_metrics_locked": {
+        "mae": 23.052014794366702,
+        "rmse": 35.16142921097373,
+        "r2": 0.5794628143102541
+      }
+    },
+    "tn_mg_l": {
+      "variant": "quality_temperature",
+      "window_days": 30,
+      "validation_mae": 3.3800707582111684,
+      "selection_basis": "Validation MAE; Test 미사용",
+      "test_metrics_locked": {
+        "mae": 3.6156413128320843,
+        "rmse": 5.302532159246439,
+        "r2": 0.5428450968818304
+      }
+    },
+    "tp_mg_l": {
+      "variant": "quality_temperature",
+      "window_days": 30,
+      "validation_mae": 0.529426954646375,
+      "selection_basis": "Validation MAE; Test 미사용",
+      "test_metrics_locked": {
+        "mae": 0.5554270803766186,
+        "rmse": 1.0153702480547997,
+        "r2": 0.37280215167313646
+      }
+    }
+  }
+}

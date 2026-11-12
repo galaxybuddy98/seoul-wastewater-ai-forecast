@@ -1,0 +1,10 @@
+﻿window_days,split,sample_count
+7,train,19238
+7,validation,5079
+7,test,4114
+14,train,19105
+14,validation,5072
+14,test,4023
+30,train,18801
+30,validation,5056
+30,test,3831

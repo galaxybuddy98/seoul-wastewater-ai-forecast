@@ -1,0 +1,13 @@
+{
+  "incremental_batch": "20261112T024945",
+  "new_file_count": 9,
+  "new_source_bytes": 80696551,
+  "new_source_rows": 1879006,
+  "new_station_count": 48,
+  "new_station_ids_not_in_existing": [],
+  "incremental_daily_rows_with_records": 13069,
+  "incremental_complete_station_days": 12903,
+  "incremental_incomplete_station_days": 166,
+  "updated_station_daily_rows": 270894,
+  "elapsed_seconds": 63.281
+}

@@ -1,0 +1,4 @@
+﻿station_id,station_name,rows,start_date,end_date,missing_calendar_dates,temperature_missing,precipitation_blank_or_missing
+108,서울,3926,2016-01-01,2026-09-30,0,0,2345
+112,인천,3926,2016-01-01,2026-09-30,0,0,2446
+119,수원,3926,2016-01-01,2026-09-30,0,0,2381

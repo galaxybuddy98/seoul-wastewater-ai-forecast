@@ -9,6 +9,7 @@ __pycache__/
 data/raw/
 data/processed/
 data/external/
+data/interim/
 data/cache/
 cache/
 results/

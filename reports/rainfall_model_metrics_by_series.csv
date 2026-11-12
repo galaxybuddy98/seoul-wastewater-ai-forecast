@@ -1,0 +1,631 @@
+﻿experiment,model_type,variant,window_days,target,split,best_iteration,series_id,facility,plant,eval_rows,mae,rmse,r2
+persistence,persistence,quality,7,bod_mg_l,validation,0,series_2b498f0fc9d3,중랑물재생센터,제2처리장,731,53.477975376196994,94.09008533680226,-0.0820391033616605
+persistence,persistence,quality,7,bod_mg_l,validation,0,series_38b56308fe33,탄천물재생센터,처리장 구분없음,731,35.777975376196984,52.72866105171295,-0.0718224173538266
+persistence,persistence,quality,7,bod_mg_l,validation,0,series_5570e6bfc807,서남물재생센터,처리장 구분없음,731,13.756908344733244,18.740437050617395,0.7495386439183188
+persistence,persistence,quality,7,bod_mg_l,validation,0,series_7283ed219bce,중랑물재생센터,제4처리장,731,27.92845417236662,37.89464750021468,0.0813880360259797
+persistence,persistence,quality,7,bod_mg_l,validation,0,series_815bcfa5d234,난지물재생센터,처리장 구분없음,731,21.08358413132695,28.5084049334014,0.2987852302107279
+persistence,persistence,quality,7,bod_mg_l,validation,0,series_b2431e9bb980,중랑물재생센터,제3처리장,731,27.92845417236662,37.89464750021468,0.0813880360259797
+persistence,persistence,quality,7,bod_mg_l,validation,0,series_b79cd759c453,중랑물재생센터,제1처리장,693,22.966810966810964,31.967763343998485,0.4685540374736217
+persistence,persistence,quality,7,bod_mg_l,test,0,series_2b498f0fc9d3,중랑물재생센터,제2처리장,601,29.312096505823625,45.26069943462152,0.6687100359042182
+persistence,persistence,quality,7,bod_mg_l,test,0,series_38b56308fe33,탄천물재생센터,처리장 구분없음,384,33.20729166666667,51.96607216492314,-0.464697739422111
+persistence,persistence,quality,7,bod_mg_l,test,0,series_5570e6bfc807,서남물재생센터,처리장 구분없음,638,17.7230407523511,26.15881104518716,0.818215168142241
+persistence,persistence,quality,7,bod_mg_l,test,0,series_7283ed219bce,중랑물재생센터,제4처리장,630,26.97063492063492,38.55510198260262,0.1830189126547885
+persistence,persistence,quality,7,bod_mg_l,test,0,series_815bcfa5d234,난지물재생센터,처리장 구분없음,638,26.838087774294667,38.65656984070792,0.28662329797687
+persistence,persistence,quality,7,bod_mg_l,test,0,series_b2431e9bb980,중랑물재생센터,제3처리장,630,26.97063492063492,38.55510198260262,0.1830189126547885
+persistence,persistence,quality,7,bod_mg_l,test,0,series_b79cd759c453,중랑물재생센터,제1처리장,593,26.559527824620574,38.56161972765455,0.1459337298613693
+persistence,persistence,quality,7,tn_mg_l,validation,0,series_2b498f0fc9d3,중랑물재생센터,제2처리장,731,5.632735978112176,9.09022942873454,-0.0767241751349472
+persistence,persistence,quality,7,tn_mg_l,validation,0,series_38b56308fe33,탄천물재생센터,처리장 구분없음,731,6.31692339261286,8.5641855696824,0.0961865543307988
+persistence,persistence,quality,7,tn_mg_l,validation,0,series_5570e6bfc807,서남물재생센터,처리장 구분없음,731,2.2287592339261284,3.116948846357141,0.6039615254562805
+persistence,persistence,quality,7,tn_mg_l,validation,0,series_7283ed219bce,중랑물재생센터,제4처리장,731,3.8288344733242137,5.633256038723184,0.3483073401204658
+persistence,persistence,quality,7,tn_mg_l,validation,0,series_815bcfa5d234,난지물재생센터,처리장 구분없음,731,2.8357865937072506,4.070470705545722,0.5451319253111246
+persistence,persistence,quality,7,tn_mg_l,validation,0,series_b2431e9bb980,중랑물재생센터,제3처리장,731,3.8288344733242137,5.633256038723184,0.3483073401204658
+persistence,persistence,quality,7,tn_mg_l,validation,0,series_b79cd759c453,중랑물재생센터,제1처리장,693,3.9931443001443,5.527414675958372,0.3032564329920488
+persistence,persistence,quality,7,tn_mg_l,test,0,series_2b498f0fc9d3,중랑물재생센터,제2처리장,601,5.443990016638935,7.722703077849036,0.1892679708624028
+persistence,persistence,quality,7,tn_mg_l,test,0,series_38b56308fe33,탄천물재생센터,처리장 구분없음,384,5.451882812499999,7.355215602897318,-0.3334103153358183
+persistence,persistence,quality,7,tn_mg_l,test,0,series_5570e6bfc807,서남물재생센터,처리장 구분없음,638,3.5642131661442003,5.072340084632465,0.4522172196545541
+persistence,persistence,quality,7,tn_mg_l,test,0,series_7283ed219bce,중랑물재생센터,제4처리장,630,4.954231746031746,6.930264923587778,0.1756079399869384
+persistence,persistence,quality,7,tn_mg_l,test,0,series_815bcfa5d234,난지물재생센터,처리장 구분없음,638,3.437918495297805,4.9713413780567,0.5427727644642161
+persistence,persistence,quality,7,tn_mg_l,test,0,series_b2431e9bb980,중랑물재생센터,제3처리장,630,4.954231746031746,6.930264923587778,0.1756079399869384
+persistence,persistence,quality,7,tn_mg_l,test,0,series_b79cd759c453,중랑물재생센터,제1처리장,593,4.828654300168634,6.740959231384696,0.1500225936860388
+persistence,persistence,quality,7,tp_mg_l,validation,0,series_2b498f0fc9d3,중랑물재생센터,제2처리장,731,1.6000205198358413,3.176359218737218,-0.1258408919245639
+persistence,persistence,quality,7,tp_mg_l,validation,0,series_38b56308fe33,탄천물재생센터,처리장 구분없음,731,0.7130082079343365,0.9839682250216504,-0.2354379305906115
+persistence,persistence,quality,7,tp_mg_l,validation,0,series_5570e6bfc807,서남물재생센터,처리장 구분없음,731,0.3310820793433652,0.4524246836670662,0.6017719957733927
+persistence,persistence,quality,7,tp_mg_l,validation,0,series_7283ed219bce,중랑물재생센터,제4처리장,731,0.5536826265389876,0.8334858450500336,0.2023241757810516
+persistence,persistence,quality,7,tp_mg_l,validation,0,series_815bcfa5d234,난지물재생센터,처리장 구분없음,731,0.3193570451436389,0.4403428461567449,0.4941908882832613
+persistence,persistence,quality,7,tp_mg_l,validation,0,series_b2431e9bb980,중랑물재생센터,제3처리장,731,0.5536826265389876,0.8334858450500336,0.2023241757810516
+persistence,persistence,quality,7,tp_mg_l,validation,0,series_b79cd759c453,중랑물재생센터,제1처리장,693,0.4703405483405483,0.6670634209005973,0.236289534423695
+persistence,persistence,quality,7,tp_mg_l,test,0,series_2b498f0fc9d3,중랑물재생센터,제2처리장,601,0.9742312811980032,1.6831235269546774,0.3953131466110587
+persistence,persistence,quality,7,tp_mg_l,test,0,series_38b56308fe33,탄천물재생센터,처리장 구분없음,384,0.627203125,0.869950645151781,-0.3657363294642384
+persistence,persistence,quality,7,tp_mg_l,test,0,series_5570e6bfc807,서남물재생센터,처리장 구분없음,638,0.5433087774294671,0.8031344795007928,0.4594912320910237
+persistence,persistence,quality,7,tp_mg_l,test,0,series_7283ed219bce,중랑물재생센터,제4처리장,630,0.750563492063492,1.0428398125326703,-0.0356816053091892
+persistence,persistence,quality,7,tp_mg_l,test,0,series_815bcfa5d234,난지물재생센터,처리장 구분없음,638,0.3466206896551724,0.5220859746155628,0.3062540992435842
+persistence,persistence,quality,7,tp_mg_l,test,0,series_b2431e9bb980,중랑물재생센터,제3처리장,630,0.750563492063492,1.0428398125326703,-0.0356816053091892
+persistence,persistence,quality,7,tp_mg_l,test,0,series_b79cd759c453,중랑물재생센터,제1처리장,593,0.7391011804384486,1.033766925205697,-0.0726176883849158
+standard,lightgbm,quality,7,bod_mg_l,validation,487,series_2b498f0fc9d3,중랑물재생센터,제2처리장,731,43.99353789216764,78.1232215758437,0.2540400364469396
+standard,lightgbm,quality,7,bod_mg_l,validation,487,series_38b56308fe33,탄천물재생센터,처리장 구분없음,731,29.38562186317301,42.97463178147095,0.2880431418146398
+standard,lightgbm,quality,7,bod_mg_l,validation,487,series_5570e6bfc807,서남물재생센터,처리장 구분없음,731,12.310898206530252,16.895163785792732,0.796433593461311
+standard,lightgbm,quality,7,bod_mg_l,validation,487,series_7283ed219bce,중랑물재생센터,제4처리장,731,23.22873406979121,30.952925804360248,0.3871139060028672
+standard,lightgbm,quality,7,bod_mg_l,validation,487,series_815bcfa5d234,난지물재생센터,처리장 구분없음,731,17.543429394364136,23.611576655546152,0.51898879504805
+standard,lightgbm,quality,7,bod_mg_l,validation,487,series_b2431e9bb980,중랑물재생센터,제3처리장,731,23.182898797931845,30.944368396854312,0.3874527425382825
+standard,lightgbm,quality,7,bod_mg_l,validation,487,series_b79cd759c453,중랑물재생센터,제1처리장,693,19.68158846516896,27.47374926021917,0.6074721552933677
+standard,lightgbm,quality,7,bod_mg_l,test,487,series_2b498f0fc9d3,중랑물재생센터,제2처리장,601,29.5977265990699,52.05278546393804,0.5618188337894523
+standard,lightgbm,quality,7,bod_mg_l,test,487,series_38b56308fe33,탄천물재생센터,처리장 구분없음,384,26.966609434244702,39.70787314898125,0.1448122353013239
+standard,lightgbm,quality,7,bod_mg_l,test,487,series_5570e6bfc807,서남물재생센터,처리장 구분없음,638,21.17507522158921,32.64978678449531,0.7168071134360807
+standard,lightgbm,quality,7,bod_mg_l,test,487,series_7283ed219bce,중랑물재생센터,제4처리장,630,22.230588505270585,30.5677218656624,0.4864598109019425
+standard,lightgbm,quality,7,bod_mg_l,test,487,series_815bcfa5d234,난지물재생센터,처리장 구분없음,638,21.344585581911243,29.85092380439843,0.574609443747991
+standard,lightgbm,quality,7,bod_mg_l,test,487,series_b2431e9bb980,중랑물재생센터,제3처리장,630,22.256518645832973,30.563892162846848,0.4865884814725856
+standard,lightgbm,quality,7,bod_mg_l,test,487,series_b79cd759c453,중랑물재생센터,제1처리장,593,21.99914893030024,30.55009227174648,0.4639490278143157
+standard,lightgbm,quality,7,tn_mg_l,validation,127,series_2b498f0fc9d3,중랑물재생센터,제2처리장,731,4.392161573549323,7.23645060210166,0.3176519122961464
+standard,lightgbm,quality,7,tn_mg_l,validation,127,series_38b56308fe33,탄천물재생센터,처리장 구분없음,731,5.3779769748248665,7.229335658086352,0.3559739434611729
+standard,lightgbm,quality,7,tn_mg_l,validation,127,series_5570e6bfc807,서남물재생센터,처리장 구분없음,731,2.0002290239849203,2.999439892021203,0.6332599367142354
+standard,lightgbm,quality,7,tn_mg_l,validation,127,series_7283ed219bce,중랑물재생센터,제4처리장,731,3.2349441101306247,4.959151402151695,0.4949451074806328
+standard,lightgbm,quality,7,tn_mg_l,validation,127,series_815bcfa5d234,난지물재생센터,처리장 구분없음,731,2.448819284705384,3.6948889783779872,0.625200522719001
+standard,lightgbm,quality,7,tn_mg_l,validation,127,series_b2431e9bb980,중랑물재생센터,제3처리장,731,3.232819122210956,4.958957264402936,0.494984649850961
+standard,lightgbm,quality,7,tn_mg_l,validation,127,series_b79cd759c453,중랑물재생센터,제1처리장,693,3.4034109116017226,4.87497503651473,0.458031974472219
+standard,lightgbm,quality,7,tn_mg_l,test,127,series_2b498f0fc9d3,중랑물재생센터,제2처리장,601,4.306163452357462,6.254264060128882,0.468270098770169
+standard,lightgbm,quality,7,tn_mg_l,test,127,series_38b56308fe33,탄천물재생센터,처리장 구분없음,384,4.441919979013272,6.046918082362811,0.0987585333522248
+standard,lightgbm,quality,7,tn_mg_l,test,127,series_5570e6bfc807,서남물재생센터,처리장 구분없음,638,2.9572879444083284,4.379843637460112,0.5915782511490189
+standard,lightgbm,quality,7,tn_mg_l,test,127,series_7283ed219bce,중랑물재생센터,제4처리장,630,4.051226015292618,5.801890731471052,0.4222057473656954
+standard,lightgbm,quality,7,tn_mg_l,test,127,series_815bcfa5d234,난지물재생센터,처리장 구분없음,638,3.024988210817322,4.475698310123491,0.6293990504291098
+standard,lightgbm,quality,7,tn_mg_l,test,127,series_b2431e9bb980,중랑물재생센터,제3처리장,630,4.047606127018367,5.802296566418298,0.4221249125785548
+standard,lightgbm,quality,7,tn_mg_l,test,127,series_b79cd759c453,중랑물재생센터,제1처리장,593,3.8908312580102806,5.5990349351423525,0.4136048966996222
+standard,lightgbm,quality,7,tp_mg_l,validation,333,series_2b498f0fc9d3,중랑물재생센터,제2처리장,731,1.3044840184414763,2.8233902183869093,0.1104720323237125
+standard,lightgbm,quality,7,tp_mg_l,validation,333,series_38b56308fe33,탄천물재생센터,처리장 구분없음,731,0.5619630140577676,0.7895169549166279,0.2046071098237665
+standard,lightgbm,quality,7,tp_mg_l,validation,333,series_5570e6bfc807,서남물재생센터,처리장 구분없음,731,0.2876378212347862,0.4115185199434349,0.6705284004786476
+standard,lightgbm,quality,7,tp_mg_l,validation,333,series_7283ed219bce,중랑물재생센터,제4처리장,731,0.4637204229014623,0.6825670288183671,0.4650408940423478
+standard,lightgbm,quality,7,tp_mg_l,validation,333,series_815bcfa5d234,난지물재생센터,처리장 구분없음,731,0.2751967844202618,0.4026090012737099,0.5771642306404154
+standard,lightgbm,quality,7,tp_mg_l,validation,333,series_b2431e9bb980,중랑물재생센터,제3처리장,731,0.4635943432457933,0.682557490773221,0.4650558447453208
+standard,lightgbm,quality,7,tp_mg_l,validation,333,series_b79cd759c453,중랑물재생센터,제1처리장,693,0.4078715557524789,0.6058102731513287,0.3701055862906099
+standard,lightgbm,quality,7,tp_mg_l,test,333,series_2b498f0fc9d3,중랑물재생센터,제2처리장,601,0.9033199159081368,1.8890000823914148,0.2383376312989134
+standard,lightgbm,quality,7,tp_mg_l,test,333,series_38b56308fe33,탄천물재생센터,처리장 구분없음,384,0.479419089494032,0.6893970287295682,0.1423374486800092
+standard,lightgbm,quality,7,tp_mg_l,test,333,series_5570e6bfc807,서남물재생센터,처리장 구분없음,638,0.4994205127008485,0.7976002940443261,0.4669145710133917
+standard,lightgbm,quality,7,tp_mg_l,test,333,series_7283ed219bce,중랑물재생센터,제4처리장,630,0.610077431247081,0.8393235204711675,0.3291122774882851
+standard,lightgbm,quality,7,tp_mg_l,test,333,series_815bcfa5d234,난지물재생센터,처리장 구분없음,638,0.2848573853921429,0.4327247036404078,0.523415673615795
+standard,lightgbm,quality,7,tp_mg_l,test,333,series_b2431e9bb980,중랑물재생센터,제3처리장,630,0.6101108895052035,0.8393595526253443,0.3290546738392795
+standard,lightgbm,quality,7,tp_mg_l,test,333,series_b79cd759c453,중랑물재생센터,제1처리장,593,0.6006061917148074,0.8271109091851284,0.3133630246089753
+standard,lightgbm,quality_temperature,7,bod_mg_l,validation,264,series_2b498f0fc9d3,중랑물재생센터,제2처리장,731,44.256181173431365,78.82704562420753,0.2405385559881753
+standard,lightgbm,quality_temperature,7,bod_mg_l,validation,264,series_38b56308fe33,탄천물재생센터,처리장 구분없음,731,29.374718525746708,43.01478619520801,0.2867120511170478
+standard,lightgbm,quality_temperature,7,bod_mg_l,validation,264,series_5570e6bfc807,서남물재생센터,처리장 구분없음,731,12.39354853151217,16.982741150259496,0.7943177198886004
+standard,lightgbm,quality_temperature,7,bod_mg_l,validation,264,series_7283ed219bce,중랑물재생센터,제4처리장,731,23.069160022803427,30.60530985600603,0.4008026061853883
+standard,lightgbm,quality_temperature,7,bod_mg_l,validation,264,series_815bcfa5d234,난지물재생센터,처리장 구분없음,731,17.547394396258188,23.630309041818077,0.5182252660312403
+standard,lightgbm,quality_temperature,7,bod_mg_l,validation,264,series_b2431e9bb980,중랑물재생센터,제3처리장,731,23.03017311222979,30.58687376059714,0.4015242805063996
+standard,lightgbm,quality_temperature,7,bod_mg_l,validation,264,series_b79cd759c453,중랑물재생센터,제1처리장,693,19.620575020879144,27.563404687846383,0.6049060931883872
+standard,lightgbm,quality_temperature,7,bod_mg_l,test,264,series_2b498f0fc9d3,중랑물재생센터,제2처리장,601,29.512471919736424,52.62828194101692,0.5520761957114053
+standard,lightgbm,quality_temperature,7,bod_mg_l,test,264,series_38b56308fe33,탄천물재생센터,처리장 구분없음,384,27.21618931312105,39.79695850935159,0.1409706711444341
+standard,lightgbm,quality_temperature,7,bod_mg_l,test,264,series_5570e6bfc807,서남물재생센터,처리장 구분없음,638,21.291119087905937,32.84462188233683,0.7134171652478614
+standard,lightgbm,quality_temperature,7,bod_mg_l,test,264,series_7283ed219bce,중랑물재생센터,제4처리장,630,21.801349167054177,30.307738972367694,0.4951581297866144
+standard,lightgbm,quality_temperature,7,bod_mg_l,test,264,series_815bcfa5d234,난지물재생센터,처리장 구분없음,638,21.64039717382836,30.18515450316149,0.565030206163577
+standard,lightgbm,quality_temperature,7,bod_mg_l,test,264,series_b2431e9bb980,중랑물재생센터,제3처리장,630,21.81742530359349,30.290029531625716,0.4957479365777131
+standard,lightgbm,quality_temperature,7,bod_mg_l,test,264,series_b79cd759c453,중랑물재생센터,제1처리장,593,21.511229678646604,30.19631429616859,0.4762923600960403
+standard,lightgbm,quality_temperature,7,tn_mg_l,validation,192,series_2b498f0fc9d3,중랑물재생센터,제2처리장,731,4.399581387322297,7.226197123688733,0.3195842089619116
+standard,lightgbm,quality_temperature,7,tn_mg_l,validation,192,series_38b56308fe33,탄천물재생센터,처리장 구분없음,731,5.301169299706695,7.137373685517378,0.3722546123377416
+standard,lightgbm,quality_temperature,7,tn_mg_l,validation,192,series_5570e6bfc807,서남물재생센터,처리장 구분없음,731,1.962972457353049,2.936052728740899,0.6485967847740102
+standard,lightgbm,quality_temperature,7,tn_mg_l,validation,192,series_7283ed219bce,중랑물재생센터,제4처리장,731,3.2673470191776666,4.932272589674503,0.5004051087435785
+standard,lightgbm,quality_temperature,7,tn_mg_l,validation,192,series_815bcfa5d234,난지물재생센터,처리장 구분없음,731,2.401754814643372,3.618077188980136,0.6406217037765838
+standard,lightgbm,quality_temperature,7,tn_mg_l,validation,192,series_b2431e9bb980,중랑물재생센터,제3처리장,731,3.2658985263663616,4.931635570012825,0.5005341491448025
+standard,lightgbm,quality_temperature,7,tn_mg_l,validation,192,series_b79cd759c453,중랑물재생센터,제1처리장,693,3.3995669333726832,4.82853000305547,0.4683096946367544
+standard,lightgbm,quality_temperature,7,tn_mg_l,test,192,series_2b498f0fc9d3,중랑물재생센터,제2처리장,601,4.286866648030951,6.238015253405107,0.4710294171564974
+standard,lightgbm,quality_temperature,7,tn_mg_l,test,192,series_38b56308fe33,탄천물재생센터,처리장 구분없음,384,4.432666512253409,5.9774289901913065,0.1193530278474945
+standard,lightgbm,quality_temperature,7,tn_mg_l,test,192,series_5570e6bfc807,서남물재생센터,처리장 구분없음,638,2.953360000892253,4.320586698024043,0.6025549461971313
+standard,lightgbm,quality_temperature,7,tn_mg_l,test,192,series_7283ed219bce,중랑물재생센터,제4처리장,630,4.02506658610387,5.744493486522052,0.4335812652807769
+standard,lightgbm,quality_temperature,7,tn_mg_l,test,192,series_815bcfa5d234,난지물재생센터,처리장 구분없음,638,2.9864852211098114,4.364662421662835,0.6475591521622852
+standard,lightgbm,quality_temperature,7,tn_mg_l,test,192,series_b2431e9bb980,중랑물재생센터,제3처리장,630,4.022945906204881,5.74362866676124,0.433751798415838
+standard,lightgbm,quality_temperature,7,tn_mg_l,test,192,series_b79cd759c453,중랑물재생센터,제1처리장,593,3.8501949054022497,5.541119867975661,0.4256732154044954
+standard,lightgbm,quality_temperature,7,tp_mg_l,validation,434,series_2b498f0fc9d3,중랑물재생센터,제2처리장,731,1.3202624908481964,2.858562312813392,0.0881715822919252
+standard,lightgbm,quality_temperature,7,tp_mg_l,validation,434,series_38b56308fe33,탄천물재생센터,처리장 구분없음,731,0.5566390888631845,0.7830283249173959,0.2176272287830059
+standard,lightgbm,quality_temperature,7,tp_mg_l,validation,434,series_5570e6bfc807,서남물재생센터,처리장 구분없음,731,0.2901873599213176,0.4165302992031748,0.6624544312264499
+standard,lightgbm,quality_temperature,7,tp_mg_l,validation,434,series_7283ed219bce,중랑물재생센터,제4처리장,731,0.456967416640332,0.6748482731685926,0.4770715693485977
+standard,lightgbm,quality_temperature,7,tp_mg_l,validation,434,series_815bcfa5d234,난지물재생센터,처리장 구분없음,731,0.2752712377442251,0.3945256765789028,0.5939726349099735
+standard,lightgbm,quality_temperature,7,tp_mg_l,validation,434,series_b2431e9bb980,중랑물재생센터,제3처리장,731,0.4565265330421429,0.674879490511556,0.4770231886550863
+standard,lightgbm,quality_temperature,7,tp_mg_l,validation,434,series_b79cd759c453,중랑물재생센터,제1처리장,693,0.4017328213361641,0.5972053398230845,0.387872551946715
+standard,lightgbm,quality_temperature,7,tp_mg_l,test,434,series_2b498f0fc9d3,중랑물재생센터,제2처리장,601,0.9082617081183836,1.924762127703588,0.2092254662019774
+standard,lightgbm,quality_temperature,7,tp_mg_l,test,434,series_38b56308fe33,탄천물재생센터,처리장 구분없음,384,0.4810413429942237,0.6854068246417181,0.152236953763114
+standard,lightgbm,quality_temperature,7,tp_mg_l,test,434,series_5570e6bfc807,서남물재생센터,처리장 구분없음,638,0.498683851221369,0.8012174466796296,0.4620684752148508
+standard,lightgbm,quality_temperature,7,tp_mg_l,test,434,series_7283ed219bce,중랑물재생센터,제4처리장,630,0.6126348022684394,0.8293317254066105,0.3449904747506579
+standard,lightgbm,quality_temperature,7,tp_mg_l,test,434,series_815bcfa5d234,난지물재생센터,처리장 구분없음,638,0.2877262005997181,0.4318974172648287,0.525236206767167
+standard,lightgbm,quality_temperature,7,tp_mg_l,test,434,series_b2431e9bb980,중랑물재생센터,제3처리장,630,0.6123292416834296,0.829191997465256,0.3452111715350706
+standard,lightgbm,quality_temperature,7,tp_mg_l,test,434,series_b79cd759c453,중랑물재생센터,제1처리장,593,0.6008205408854083,0.8164519113494015,0.3309464049751589
+persistence,persistence,quality,14,bod_mg_l,validation,0,series_2b498f0fc9d3,중랑물재생센터,제2처리장,731,53.477975376196994,94.09008533680226,-0.0820391033616605
+persistence,persistence,quality,14,bod_mg_l,validation,0,series_38b56308fe33,탄천물재생센터,처리장 구분없음,731,35.777975376196984,52.72866105171295,-0.0718224173538266
+persistence,persistence,quality,14,bod_mg_l,validation,0,series_5570e6bfc807,서남물재생센터,처리장 구분없음,731,13.756908344733244,18.740437050617395,0.7495386439183188
+persistence,persistence,quality,14,bod_mg_l,validation,0,series_7283ed219bce,중랑물재생센터,제4처리장,731,27.92845417236662,37.89464750021468,0.0813880360259797
+persistence,persistence,quality,14,bod_mg_l,validation,0,series_815bcfa5d234,난지물재생센터,처리장 구분없음,731,21.08358413132695,28.5084049334014,0.2987852302107279
+persistence,persistence,quality,14,bod_mg_l,validation,0,series_b2431e9bb980,중랑물재생센터,제3처리장,731,27.92845417236662,37.89464750021468,0.0813880360259797
+persistence,persistence,quality,14,bod_mg_l,validation,0,series_b79cd759c453,중랑물재생센터,제1처리장,686,23.134110787172013,32.11656430292485,0.4666708451435127
+persistence,persistence,quality,14,bod_mg_l,test,0,series_2b498f0fc9d3,중랑물재생센터,제2처리장,594,29.245572390572388,45.22901896346312,0.670325471022754
+persistence,persistence,quality,14,bod_mg_l,test,0,series_38b56308fe33,탄천물재생센터,처리장 구분없음,328,35.57286585365854,55.16613240598027,-0.5253637125175823
+persistence,persistence,quality,14,bod_mg_l,test,0,series_5570e6bfc807,서남물재생센터,처리장 구분없음,638,17.7230407523511,26.15881104518716,0.818215168142241
+persistence,persistence,quality,14,bod_mg_l,test,0,series_7283ed219bce,중랑물재생센터,제4처리장,623,26.99967897271268,38.642838361866175,0.1857314667988487
+persistence,persistence,quality,14,bod_mg_l,test,0,series_815bcfa5d234,난지물재생센터,처리장 구분없음,638,26.838087774294667,38.65656984070792,0.28662329797687
+persistence,persistence,quality,14,bod_mg_l,test,0,series_b2431e9bb980,중랑물재생센터,제3처리장,623,26.99967897271268,38.642838361866175,0.1857314667988487
+persistence,persistence,quality,14,bod_mg_l,test,0,series_b79cd759c453,중랑물재생센터,제1처리장,579,26.7993091537133,38.86137579264801,0.1453841107147903
+persistence,persistence,quality,14,tn_mg_l,validation,0,series_2b498f0fc9d3,중랑물재생센터,제2처리장,731,5.632735978112176,9.09022942873454,-0.0767241751349472
+persistence,persistence,quality,14,tn_mg_l,validation,0,series_38b56308fe33,탄천물재생센터,처리장 구분없음,731,6.31692339261286,8.5641855696824,0.0961865543307988
+persistence,persistence,quality,14,tn_mg_l,validation,0,series_5570e6bfc807,서남물재생센터,처리장 구분없음,731,2.2287592339261284,3.116948846357141,0.6039615254562805
+persistence,persistence,quality,14,tn_mg_l,validation,0,series_7283ed219bce,중랑물재생센터,제4처리장,731,3.8288344733242137,5.633256038723184,0.3483073401204658
+persistence,persistence,quality,14,tn_mg_l,validation,0,series_815bcfa5d234,난지물재생센터,처리장 구분없음,731,2.8357865937072506,4.070470705545722,0.5451319253111246
+persistence,persistence,quality,14,tn_mg_l,validation,0,series_b2431e9bb980,중랑물재생센터,제3처리장,731,3.8288344733242137,5.633256038723184,0.3483073401204658
+persistence,persistence,quality,14,tn_mg_l,validation,0,series_b79cd759c453,중랑물재생센터,제1처리장,686,4.015763848396502,5.552284498438773,0.3018625796192032
+persistence,persistence,quality,14,tn_mg_l,test,0,series_2b498f0fc9d3,중랑물재생센터,제2처리장,594,5.419195286195286,7.631270464500448,0.1852019153259959
+persistence,persistence,quality,14,tn_mg_l,test,0,series_38b56308fe33,탄천물재생센터,처리장 구분없음,328,5.418259146341463,7.355712693040761,-0.418913041770361
+persistence,persistence,quality,14,tn_mg_l,test,0,series_5570e6bfc807,서남물재생센터,처리장 구분없음,638,3.5642131661442003,5.072340084632465,0.4522172196545541
+persistence,persistence,quality,14,tn_mg_l,test,0,series_7283ed219bce,중랑물재생센터,제4처리장,623,4.909898876404495,6.8368645302606685,0.1942614050208967
+persistence,persistence,quality,14,tn_mg_l,test,0,series_815bcfa5d234,난지물재생센터,처리장 구분없음,638,3.437918495297805,4.9713413780567,0.5427727644642161
+persistence,persistence,quality,14,tn_mg_l,test,0,series_b2431e9bb980,중랑물재생센터,제3처리장,623,4.909898876404495,6.8368645302606685,0.1942614050208967
+persistence,persistence,quality,14,tn_mg_l,test,0,series_b79cd759c453,중랑물재생센터,제1처리장,579,4.801509499136442,6.664814788818767,0.1730895699018009
+persistence,persistence,quality,14,tp_mg_l,validation,0,series_2b498f0fc9d3,중랑물재생센터,제2처리장,731,1.6000205198358413,3.176359218737218,-0.1258408919245639
+persistence,persistence,quality,14,tp_mg_l,validation,0,series_38b56308fe33,탄천물재생센터,처리장 구분없음,731,0.7130082079343365,0.9839682250216504,-0.2354379305906115
+persistence,persistence,quality,14,tp_mg_l,validation,0,series_5570e6bfc807,서남물재생센터,처리장 구분없음,731,0.3310820793433652,0.4524246836670662,0.6017719957733927
+persistence,persistence,quality,14,tp_mg_l,validation,0,series_7283ed219bce,중랑물재생센터,제4처리장,731,0.5536826265389876,0.8334858450500336,0.2023241757810516
+persistence,persistence,quality,14,tp_mg_l,validation,0,series_815bcfa5d234,난지물재생센터,처리장 구분없음,731,0.3193570451436389,0.4403428461567449,0.4941908882832613
+persistence,persistence,quality,14,tp_mg_l,validation,0,series_b2431e9bb980,중랑물재생센터,제3처리장,731,0.5536826265389876,0.8334858450500336,0.2023241757810516
+persistence,persistence,quality,14,tp_mg_l,validation,0,series_b79cd759c453,중랑물재생센터,제1처리장,686,0.4728760932944607,0.6699916376050088,0.2303358209738828
+persistence,persistence,quality,14,tp_mg_l,test,0,series_2b498f0fc9d3,중랑물재생센터,제2처리장,594,0.9748619528619528,1.6872499909576326,0.3934349047812417
+persistence,persistence,quality,14,tp_mg_l,test,0,series_38b56308fe33,탄천물재생센터,처리장 구분없음,328,0.6343871951219513,0.8774301288977722,-0.3501005742495617
+persistence,persistence,quality,14,tp_mg_l,test,0,series_5570e6bfc807,서남물재생센터,처리장 구분없음,638,0.5433087774294671,0.8031344795007928,0.4594912320910237
+persistence,persistence,quality,14,tp_mg_l,test,0,series_7283ed219bce,중랑물재생센터,제4처리장,623,0.7459839486356339,1.0380789471333771,-0.0272197515701837
+persistence,persistence,quality,14,tp_mg_l,test,0,series_815bcfa5d234,난지물재생센터,처리장 구분없음,638,0.3466206896551724,0.5220859746155628,0.3062540992435842
+persistence,persistence,quality,14,tp_mg_l,test,0,series_b2431e9bb980,중랑물재생센터,제3처리장,623,0.7459839486356339,1.0380789471333771,-0.0272197515701837
+persistence,persistence,quality,14,tp_mg_l,test,0,series_b79cd759c453,중랑물재생센터,제1처리장,579,0.7366079447322971,1.0324089324485983,-0.062852292412997
+standard,lightgbm,quality,14,bod_mg_l,validation,500,series_2b498f0fc9d3,중랑물재생센터,제2처리장,731,43.66277794625616,78.1018371887431,0.2544483584048144
+standard,lightgbm,quality,14,bod_mg_l,validation,500,series_38b56308fe33,탄천물재생센터,처리장 구분없음,731,29.10295428421569,42.71633709091165,0.2965757122438685
+standard,lightgbm,quality,14,bod_mg_l,validation,500,series_5570e6bfc807,서남물재생센터,처리장 구분없음,731,12.292096347528728,16.947205657836,0.7951775780435202
+standard,lightgbm,quality,14,bod_mg_l,validation,500,series_7283ed219bce,중랑물재생센터,제4처리장,731,22.77707516339723,30.30298500383316,0.412582100446264
+standard,lightgbm,quality,14,bod_mg_l,validation,500,series_815bcfa5d234,난지물재생센터,처리장 구분없음,731,17.542661162368958,23.51531198367097,0.522902976191318
+standard,lightgbm,quality,14,bod_mg_l,validation,500,series_b2431e9bb980,중랑물재생센터,제3처리장,731,22.77558145038041,30.32706842086046,0.4116480240213476
+standard,lightgbm,quality,14,bod_mg_l,validation,500,series_b79cd759c453,중랑물재생센터,제1처리장,686,19.42701116921496,27.38855191677049,0.6121397196180651
+standard,lightgbm,quality,14,bod_mg_l,test,500,series_2b498f0fc9d3,중랑물재생센터,제2처리장,594,28.70473898451922,50.677779737707205,0.5861087759544337
+standard,lightgbm,quality,14,bod_mg_l,test,500,series_38b56308fe33,탄천물재생센터,처리장 구분없음,328,28.593339405207058,41.478437701194274,0.1376707529489109
+standard,lightgbm,quality,14,bod_mg_l,test,500,series_5570e6bfc807,서남물재생센터,처리장 구분없음,638,20.58318913515873,31.181643742161825,0.7417028276557439
+standard,lightgbm,quality,14,bod_mg_l,test,500,series_7283ed219bce,중랑물재생센터,제4처리장,623,21.62224244604961,30.08102518889616,0.5065821210330658
+standard,lightgbm,quality,14,bod_mg_l,test,500,series_815bcfa5d234,난지물재생센터,처리장 구분없음,638,21.467157841721512,29.879703931944505,0.5737887859780768
+standard,lightgbm,quality,14,bod_mg_l,test,500,series_b2431e9bb980,중랑물재생센터,제3처리장,623,21.628038939322,30.083160786825268,0.5065120582875957
+standard,lightgbm,quality,14,bod_mg_l,test,500,series_b79cd759c453,중랑물재생센터,제1처리장,579,21.48908091596251,30.132609048259773,0.4861834442816435
+standard,lightgbm,quality,14,tn_mg_l,validation,134,series_2b498f0fc9d3,중랑물재생센터,제2처리장,731,4.323266128200053,7.1645571643708745,0.3311426876471903
+standard,lightgbm,quality,14,tn_mg_l,validation,134,series_38b56308fe33,탄천물재생센터,처리장 구분없음,731,5.335341193374399,7.145475550540003,0.3708286550560694
+standard,lightgbm,quality,14,tn_mg_l,validation,134,series_5570e6bfc807,서남물재생센터,처리장 구분없음,731,2.007930281192049,3.0293899796126365,0.6258994055700746
+standard,lightgbm,quality,14,tn_mg_l,validation,134,series_7283ed219bce,중랑물재생센터,제4처리장,731,3.21301269111823,4.927231635330515,0.5014257936418256
+standard,lightgbm,quality,14,tn_mg_l,validation,134,series_815bcfa5d234,난지물재생센터,처리장 구분없음,731,2.4121741088700235,3.680620690575602,0.6280896061724316
+standard,lightgbm,quality,14,tn_mg_l,validation,134,series_b2431e9bb980,중랑물재생센터,제3처리장,731,3.212786410762365,4.927369642512637,0.5013978640497144
+standard,lightgbm,quality,14,tn_mg_l,validation,134,series_b79cd759c453,중랑물재생센터,제1처리장,686,3.3896500485551724,4.86860556448729,0.4632072065000101
+standard,lightgbm,quality,14,tn_mg_l,test,134,series_2b498f0fc9d3,중랑물재생센터,제2처리장,594,4.133132959922212,6.0333012621851765,0.490708613942004
+standard,lightgbm,quality,14,tn_mg_l,test,134,series_38b56308fe33,탄천물재생센터,처리장 구분없음,328,4.227824641316752,5.786764069489249,0.1218315757612509
+standard,lightgbm,quality,14,tn_mg_l,test,134,series_5570e6bfc807,서남물재생센터,처리장 구분없음,638,2.9466057330296542,4.396673285580063,0.588433481217272
+standard,lightgbm,quality,14,tn_mg_l,test,134,series_7283ed219bce,중랑물재생센터,제4처리장,623,3.9537611460160775,5.675626815402707,0.444725305890717
+standard,lightgbm,quality,14,tn_mg_l,test,134,series_815bcfa5d234,난지물재생센터,처리장 구분없음,638,2.995465708870306,4.402048163880476,0.6414955933408464
+standard,lightgbm,quality,14,tn_mg_l,test,134,series_b2431e9bb980,중랑물재생센터,제3처리장,623,3.952363308502581,5.675319357621505,0.4447854644976085
+standard,lightgbm,quality,14,tn_mg_l,test,134,series_b79cd759c453,중랑물재생센터,제1처리장,579,3.82603313142206,5.466030716370975,0.4438058260811843
+standard,lightgbm,quality,14,tp_mg_l,validation,251,series_2b498f0fc9d3,중랑물재생센터,제2처리장,731,1.3085205513327045,2.8396784344619195,0.1001790045589881
+standard,lightgbm,quality,14,tp_mg_l,validation,251,series_38b56308fe33,탄천물재생센터,처리장 구분없음,731,0.557005824790156,0.7817067139632433,0.2202660090038255
+standard,lightgbm,quality,14,tp_mg_l,validation,251,series_5570e6bfc807,서남물재생센터,처리장 구분없음,731,0.2888055887583143,0.4176724576839141,0.6606007408125432
+standard,lightgbm,quality,14,tp_mg_l,validation,251,series_7283ed219bce,중랑물재생센터,제4처리장,731,0.4552829133048446,0.6772466555049907,0.473348033209347
+standard,lightgbm,quality,14,tp_mg_l,validation,251,series_815bcfa5d234,난지물재생센터,처리장 구분없음,731,0.2729185668684472,0.3984977763926281,0.5857556792621632
+standard,lightgbm,quality,14,tp_mg_l,validation,251,series_b2431e9bb980,중랑물재생센터,제3처리장,731,0.4552829133048446,0.6772466555049907,0.473348033209347
+standard,lightgbm,quality,14,tp_mg_l,validation,251,series_b79cd759c453,중랑물재생센터,제1처리장,686,0.4104399971944965,0.6069152055472985,0.3684342836321695
+standard,lightgbm,quality,14,tp_mg_l,test,251,series_2b498f0fc9d3,중랑물재생센터,제2처리장,594,0.8976362281903165,1.9333144351743787,0.2036141526819395
+standard,lightgbm,quality,14,tp_mg_l,test,251,series_38b56308fe33,탄천물재생센터,처리장 구분없음,328,0.4806151165348055,0.6959128250496049,0.1507203527208758
+standard,lightgbm,quality,14,tp_mg_l,test,251,series_5570e6bfc807,서남물재생센터,처리장 구분없음,638,0.5009305398381934,0.80168064000601,0.4614463262180706
+standard,lightgbm,quality,14,tp_mg_l,test,251,series_7283ed219bce,중랑물재생센터,제4처리장,623,0.5910171466183404,0.8182364461819411,0.3617949521055783
+standard,lightgbm,quality,14,tp_mg_l,test,251,series_815bcfa5d234,난지물재생센터,처리장 구분없음,638,0.2804931605530043,0.4295754335495275,0.5303273714109968
+standard,lightgbm,quality,14,tp_mg_l,test,251,series_b2431e9bb980,중랑물재생센터,제3처리장,623,0.5910171466183404,0.8182364461819411,0.3617949521055783
+standard,lightgbm,quality,14,tp_mg_l,test,251,series_b79cd759c453,중랑물재생센터,제1처리장,579,0.5856030569020473,0.8075489122609767,0.3497099938076931
+standard,lightgbm,quality_temperature,14,bod_mg_l,validation,499,series_2b498f0fc9d3,중랑물재생센터,제2처리장,731,43.89878555790171,78.4841636761614,0.2471311984256065
+standard,lightgbm,quality_temperature,14,bod_mg_l,validation,499,series_38b56308fe33,탄천물재생센터,처리장 구분없음,731,29.084110410586284,42.71051108492853,0.2967675767583936
+standard,lightgbm,quality_temperature,14,bod_mg_l,validation,499,series_5570e6bfc807,서남물재생센터,처리장 구분없음,731,12.482348545804893,17.07293795959203,0.7921271252639873
+standard,lightgbm,quality_temperature,14,bod_mg_l,validation,499,series_7283ed219bce,중랑물재생센터,제4처리장,731,22.42540641412968,30.159849133001384,0.4181183204377067
+standard,lightgbm,quality_temperature,14,bod_mg_l,validation,499,series_815bcfa5d234,난지물재생센터,처리장 구분없음,731,17.487784278587593,23.34914351869534,0.5296218641778649
+standard,lightgbm,quality_temperature,14,bod_mg_l,validation,499,series_b2431e9bb980,중랑물재생센터,제3처리장,731,22.42567683338155,30.19048160958622,0.4169357197724569
+standard,lightgbm,quality_temperature,14,bod_mg_l,validation,499,series_b79cd759c453,중랑물재생센터,제1처리장,686,19.44122859527676,27.34330356878538,0.6134202210385764
+standard,lightgbm,quality_temperature,14,bod_mg_l,test,499,series_2b498f0fc9d3,중랑물재생센터,제2처리장,594,28.759225670737035,51.17046901927325,0.5780219566543002
+standard,lightgbm,quality_temperature,14,bod_mg_l,test,499,series_38b56308fe33,탄천물재생센터,처리장 구분없음,328,28.818976372342,41.70099845085272,0.1283919301001925
+standard,lightgbm,quality_temperature,14,bod_mg_l,test,499,series_5570e6bfc807,서남물재생센터,처리장 구분없음,638,20.88791596820209,31.732878951194746,0.7324896489144399
+standard,lightgbm,quality_temperature,14,bod_mg_l,test,499,series_7283ed219bce,중랑물재생센터,제4처리장,623,21.577725975497504,30.005732209882108,0.5090490853278359
+standard,lightgbm,quality_temperature,14,bod_mg_l,test,499,series_815bcfa5d234,난지물재생센터,처리장 구분없음,638,21.31447425073572,29.67989871080304,0.5794698661322779
+standard,lightgbm,quality_temperature,14,bod_mg_l,test,499,series_b2431e9bb980,중랑물재생센터,제3처리장,623,21.59481745907677,30.00680113034676,0.5090141055563948
+standard,lightgbm,quality_temperature,14,bod_mg_l,test,499,series_b79cd759c453,중랑물재생센터,제1처리장,579,21.38347443828874,30.016868250181147,0.4901230517317656
+standard,lightgbm,quality_temperature,14,tn_mg_l,validation,212,series_2b498f0fc9d3,중랑물재생센터,제2처리장,731,4.305401206015441,7.104122872345638,0.3423789536834362
+standard,lightgbm,quality_temperature,14,tn_mg_l,validation,212,series_38b56308fe33,탄천물재생센터,처리장 구분없음,731,5.335353998277781,7.129479238381273,0.3736425071894725
+standard,lightgbm,quality_temperature,14,tn_mg_l,validation,212,series_5570e6bfc807,서남물재생센터,처리장 구분없음,731,1.9692451133033275,2.9674183812861754,0.6410486473469991
+standard,lightgbm,quality_temperature,14,tn_mg_l,validation,212,series_7283ed219bce,중랑물재생센터,제4처리장,731,3.200674669101473,4.893481574121558,0.5082325693632391
+standard,lightgbm,quality_temperature,14,tn_mg_l,validation,212,series_815bcfa5d234,난지물재생센터,처리장 구분없음,731,2.3902067474317823,3.625709388285532,0.6391039142955708
+standard,lightgbm,quality_temperature,14,tn_mg_l,validation,212,series_b2431e9bb980,중랑물재생센터,제3처리장,731,3.199663879405858,4.893360327663606,0.5082569382382531
+standard,lightgbm,quality_temperature,14,tn_mg_l,validation,212,series_b79cd759c453,중랑물재생센터,제1처리장,686,3.3919503587575592,4.837669690146911,0.4700072625521332
+standard,lightgbm,quality_temperature,14,tn_mg_l,test,212,series_2b498f0fc9d3,중랑물재생센터,제2처리장,594,4.097342871613825,6.051153539842332,0.4876902124829217
+standard,lightgbm,quality_temperature,14,tn_mg_l,test,212,series_38b56308fe33,탄천물재생센터,처리장 구분없음,328,4.275429986620106,5.83232296048986,0.1079495957883487
+standard,lightgbm,quality_temperature,14,tn_mg_l,test,212,series_5570e6bfc807,서남물재생센터,처리장 구분없음,638,2.910184087539815,4.363916511698203,0.5945432688699995
+standard,lightgbm,quality_temperature,14,tn_mg_l,test,212,series_7283ed219bce,중랑물재생센터,제4처리장,623,3.924030660962544,5.676927815729786,0.4444707100971715
+standard,lightgbm,quality_temperature,14,tn_mg_l,test,212,series_815bcfa5d234,난지물재생센터,처리장 구분없음,638,2.957473055853142,4.334591616117718,0.6523987803107216
+standard,lightgbm,quality_temperature,14,tn_mg_l,test,212,series_b2431e9bb980,중랑물재생센터,제3처리장,623,3.9241322952381545,5.677900551125135,0.4442803151095995
+standard,lightgbm,quality_temperature,14,tn_mg_l,test,212,series_b79cd759c453,중랑물재생센터,제1처리장,579,3.77556708315972,5.464634678155897,0.4440898966274665
+standard,lightgbm,quality_temperature,14,tp_mg_l,validation,214,series_2b498f0fc9d3,중랑물재생센터,제2처리장,731,1.3120233129545276,2.8533777513747136,0.091476140931375
+standard,lightgbm,quality_temperature,14,tp_mg_l,validation,214,series_38b56308fe33,탄천물재생센터,처리장 구분없음,731,0.5514790463089366,0.7781470724884751,0.2273511571005423
+standard,lightgbm,quality_temperature,14,tp_mg_l,validation,214,series_5570e6bfc807,서남물재생센터,처리장 구분없음,731,0.2864238598023809,0.415524809468188,0.6640821109265564
+standard,lightgbm,quality_temperature,14,tp_mg_l,validation,214,series_7283ed219bce,중랑물재생센터,제4처리장,731,0.4538698815751453,0.6725369037115189,0.4806475166312569
+standard,lightgbm,quality_temperature,14,tp_mg_l,validation,214,series_815bcfa5d234,난지물재생센터,처리장 구분없음,731,0.274915623885105,0.3963885928512051,0.5901291294226001
+standard,lightgbm,quality_temperature,14,tp_mg_l,validation,214,series_b2431e9bb980,중랑물재생센터,제3처리장,731,0.4538698815751453,0.6725369037115189,0.4806475166312569
+standard,lightgbm,quality_temperature,14,tp_mg_l,validation,214,series_b79cd759c453,중랑물재생센터,제1처리장,686,0.4065353037078914,0.6011788027298113,0.3803166484190409
+standard,lightgbm,quality_temperature,14,tp_mg_l,test,214,series_2b498f0fc9d3,중랑물재생센터,제2처리장,594,0.9003509658443504,1.9387288356310903,0.1991472229383193
+standard,lightgbm,quality_temperature,14,tp_mg_l,test,214,series_38b56308fe33,탄천물재생센터,처리장 구분없음,328,0.4793349370767586,0.6946601479934691,0.1537750905510971
+standard,lightgbm,quality_temperature,14,tp_mg_l,test,214,series_5570e6bfc807,서남물재생센터,처리장 구분없음,638,0.5000654035435286,0.809348872036546,0.4510943100184381
+standard,lightgbm,quality_temperature,14,tp_mg_l,test,214,series_7283ed219bce,중랑물재생센터,제4처리장,623,0.5931562301122771,0.8157012659314266,0.3657435865930322
+standard,lightgbm,quality_temperature,14,tp_mg_l,test,214,series_815bcfa5d234,난지물재생센터,처리장 구분없음,638,0.2821805145171469,0.429642908493213,0.5301798135172762
+standard,lightgbm,quality_temperature,14,tp_mg_l,test,214,series_b2431e9bb980,중랑물재생센터,제3처리장,623,0.5931562301122771,0.8157012659314266,0.3657435865930322
+standard,lightgbm,quality_temperature,14,tp_mg_l,test,214,series_b79cd759c453,중랑물재생센터,제1처리장,579,0.5859635802834708,0.8076417920383137,0.3495603997374671
+persistence,persistence,quality,30,bod_mg_l,validation,0,series_2b498f0fc9d3,중랑물재생센터,제2처리장,731,53.477975376196994,94.09008533680226,-0.0820391033616605
+persistence,persistence,quality,30,bod_mg_l,validation,0,series_38b56308fe33,탄천물재생센터,처리장 구분없음,731,35.777975376196984,52.72866105171295,-0.0718224173538266
+persistence,persistence,quality,30,bod_mg_l,validation,0,series_5570e6bfc807,서남물재생센터,처리장 구분없음,731,13.756908344733244,18.740437050617395,0.7495386439183188
+persistence,persistence,quality,30,bod_mg_l,validation,0,series_7283ed219bce,중랑물재생센터,제4처리장,731,27.92845417236662,37.89464750021468,0.0813880360259797
+persistence,persistence,quality,30,bod_mg_l,validation,0,series_815bcfa5d234,난지물재생센터,처리장 구분없음,731,21.08358413132695,28.5084049334014,0.2987852302107279
+persistence,persistence,quality,30,bod_mg_l,validation,0,series_b2431e9bb980,중랑물재생센터,제3처리장,731,27.92845417236662,37.89464750021468,0.0813880360259797
+persistence,persistence,quality,30,bod_mg_l,validation,0,series_b79cd759c453,중랑물재생센터,제1처리장,670,23.30776119402985,32.35436209027551,0.4609016475279396
+persistence,persistence,quality,30,bod_mg_l,test,0,series_2b498f0fc9d3,중랑물재생센터,제2처리장,578,29.54233564013841,45.651303412796416,0.668390603383507
+persistence,persistence,quality,30,bod_mg_l,test,0,series_38b56308fe33,탄천물재생센터,처리장 구분없음,216,42.33842592592592,64.24384139672384,-0.7824592860939596
+persistence,persistence,quality,30,bod_mg_l,test,0,series_5570e6bfc807,서남물재생센터,처리장 구분없음,638,17.7230407523511,26.15881104518716,0.818215168142241
+persistence,persistence,quality,30,bod_mg_l,test,0,series_7283ed219bce,중랑물재생센터,제4처리장,607,27.15156507413509,38.86300824967321,0.1886866439668818
+persistence,persistence,quality,30,bod_mg_l,test,0,series_815bcfa5d234,난지물재생센터,처리장 구분없음,638,26.838087774294667,38.65656984070792,0.28662329797687
+persistence,persistence,quality,30,bod_mg_l,test,0,series_b2431e9bb980,중랑물재생센터,제3처리장,607,27.15156507413509,38.86300824967321,0.1886866439668818
+persistence,persistence,quality,30,bod_mg_l,test,0,series_b79cd759c453,중랑물재생센터,제1처리장,547,27.25648994515539,39.53676580211648,0.1372458344125954
+persistence,persistence,quality,30,tn_mg_l,validation,0,series_2b498f0fc9d3,중랑물재생센터,제2처리장,731,5.632735978112176,9.09022942873454,-0.0767241751349472
+persistence,persistence,quality,30,tn_mg_l,validation,0,series_38b56308fe33,탄천물재생센터,처리장 구분없음,731,6.31692339261286,8.5641855696824,0.0961865543307988
+persistence,persistence,quality,30,tn_mg_l,validation,0,series_5570e6bfc807,서남물재생센터,처리장 구분없음,731,2.2287592339261284,3.116948846357141,0.6039615254562805
+persistence,persistence,quality,30,tn_mg_l,validation,0,series_7283ed219bce,중랑물재생센터,제4처리장,731,3.8288344733242137,5.633256038723184,0.3483073401204658
+persistence,persistence,quality,30,tn_mg_l,validation,0,series_815bcfa5d234,난지물재생센터,처리장 구분없음,731,2.8357865937072506,4.070470705545722,0.5451319253111246
+persistence,persistence,quality,30,tn_mg_l,validation,0,series_b2431e9bb980,중랑물재생센터,제3처리장,731,3.8288344733242137,5.633256038723184,0.3483073401204658
+persistence,persistence,quality,30,tn_mg_l,validation,0,series_b79cd759c453,중랑물재생센터,제1처리장,670,4.039446268656716,5.592106132354999,0.2904208909373224
+persistence,persistence,quality,30,tn_mg_l,test,0,series_2b498f0fc9d3,중랑물재생센터,제2처리장,578,5.410219723183391,7.632075959725329,0.1737576571151858
+persistence,persistence,quality,30,tn_mg_l,test,0,series_38b56308fe33,탄천물재생센터,처리장 구분없음,216,5.467796296296296,7.3325927915230835,-0.3393178757271338
+persistence,persistence,quality,30,tn_mg_l,test,0,series_5570e6bfc807,서남물재생센터,처리장 구분없음,638,3.5642131661442003,5.072340084632465,0.4522172196545541
+persistence,persistence,quality,30,tn_mg_l,test,0,series_7283ed219bce,중랑물재생센터,제4처리장,607,4.922497528830314,6.864781137988861,0.1913440855308453
+persistence,persistence,quality,30,tn_mg_l,test,0,series_815bcfa5d234,난지물재생센터,처리장 구분없음,638,3.437918495297805,4.9713413780567,0.5427727644642161
+persistence,persistence,quality,30,tn_mg_l,test,0,series_b2431e9bb980,중랑물재생센터,제3처리장,607,4.922497528830314,6.864781137988861,0.1913440855308453
+persistence,persistence,quality,30,tn_mg_l,test,0,series_b79cd759c453,중랑물재생센터,제1처리장,547,4.782308957952468,6.660013101891576,0.1861040689411748
+persistence,persistence,quality,30,tp_mg_l,validation,0,series_2b498f0fc9d3,중랑물재생센터,제2처리장,731,1.6000205198358413,3.176359218737218,-0.1258408919245639
+persistence,persistence,quality,30,tp_mg_l,validation,0,series_38b56308fe33,탄천물재생센터,처리장 구분없음,731,0.7130082079343365,0.9839682250216504,-0.2354379305906115
+persistence,persistence,quality,30,tp_mg_l,validation,0,series_5570e6bfc807,서남물재생센터,처리장 구분없음,731,0.3310820793433652,0.4524246836670662,0.6017719957733927
+persistence,persistence,quality,30,tp_mg_l,validation,0,series_7283ed219bce,중랑물재생센터,제4처리장,731,0.5536826265389876,0.8334858450500336,0.2023241757810516
+persistence,persistence,quality,30,tp_mg_l,validation,0,series_815bcfa5d234,난지물재생센터,처리장 구분없음,731,0.3193570451436389,0.4403428461567449,0.4941908882832613
+persistence,persistence,quality,30,tp_mg_l,validation,0,series_b2431e9bb980,중랑물재생센터,제3처리장,731,0.5536826265389876,0.8334858450500336,0.2023241757810516
+persistence,persistence,quality,30,tp_mg_l,validation,0,series_b79cd759c453,중랑물재생센터,제1처리장,670,0.4776955223880597,0.6759505391249301,0.2075552350566194
+persistence,persistence,quality,30,tp_mg_l,test,0,series_2b498f0fc9d3,중랑물재생센터,제2처리장,578,0.9814723183391002,1.70257871231444,0.3913312454968513
+persistence,persistence,quality,30,tp_mg_l,test,0,series_38b56308fe33,탄천물재생센터,처리장 구분없음,216,0.5992083333333335,0.8030321271420107,-0.2214861974235218
+persistence,persistence,quality,30,tp_mg_l,test,0,series_5570e6bfc807,서남물재생센터,처리장 구분없음,638,0.5433087774294671,0.8031344795007928,0.4594912320910237
+persistence,persistence,quality,30,tp_mg_l,test,0,series_7283ed219bce,중랑물재생센터,제4처리장,607,0.7487429983525535,1.043840449819199,-0.0219986078047647
+persistence,persistence,quality,30,tp_mg_l,test,0,series_815bcfa5d234,난지물재생센터,처리장 구분없음,638,0.3466206896551724,0.5220859746155628,0.3062540992435842
+persistence,persistence,quality,30,tp_mg_l,test,0,series_b2431e9bb980,중랑물재생센터,제3처리장,607,0.7487429983525535,1.043840449819199,-0.0219986078047647
+persistence,persistence,quality,30,tp_mg_l,test,0,series_b79cd759c453,중랑물재생센터,제1처리장,547,0.7377842778793419,1.0386129725572315,-0.0517802116736076
+standard,lightgbm,quality,30,bod_mg_l,validation,485,series_2b498f0fc9d3,중랑물재생센터,제2처리장,731,43.364215201327525,78.34092896218529,0.2498766833853204
+standard,lightgbm,quality,30,bod_mg_l,validation,485,series_38b56308fe33,탄천물재생센터,처리장 구분없음,731,29.13311378198449,42.624920627423535,0.2995832618877254
+standard,lightgbm,quality,30,bod_mg_l,validation,485,series_5570e6bfc807,서남물재생센터,처리장 구분없음,731,12.39030865764531,16.968211778658098,0.7946695071406538
+standard,lightgbm,quality,30,bod_mg_l,validation,485,series_7283ed219bce,중랑물재생센터,제4처리장,731,22.550882366411845,30.0306305382945,0.4230937338456612
+standard,lightgbm,quality,30,bod_mg_l,validation,485,series_815bcfa5d234,난지물재생센터,처리장 구분없음,731,17.47537494688862,23.441719637389493,0.5258845015123605
+standard,lightgbm,quality,30,bod_mg_l,validation,485,series_b2431e9bb980,중랑물재생센터,제3처리장,731,22.52467682494682,30.025598752675425,0.4232870448355618
+standard,lightgbm,quality,30,bod_mg_l,validation,485,series_b79cd759c453,중랑물재생센터,제1처리장,670,19.85155115318852,28.03451537930016,0.5952485366608656
+standard,lightgbm,quality,30,bod_mg_l,test,485,series_2b498f0fc9d3,중랑물재생센터,제2처리장,578,28.697283099726125,51.41781538484258,0.5793240288401398
+standard,lightgbm,quality,30,bod_mg_l,test,485,series_38b56308fe33,탄천물재생센터,처리장 구분없음,216,32.840395435563885,47.47993015656052,0.0264085325426289
+standard,lightgbm,quality,30,bod_mg_l,test,485,series_5570e6bfc807,서남물재생센터,처리장 구분없음,638,20.80928783264368,31.420451974745365,0.7377312797281127
+standard,lightgbm,quality,30,bod_mg_l,test,485,series_7283ed219bce,중랑물재생센터,제4처리장,607,21.60573327011469,29.918368211990472,0.5191699499503873
+standard,lightgbm,quality,30,bod_mg_l,test,485,series_815bcfa5d234,난지물재생센터,처리장 구분없음,638,21.206437535724447,29.69165258727533,0.5791367222739602
+standard,lightgbm,quality,30,bod_mg_l,test,485,series_b2431e9bb980,중랑물재생센터,제3처리장,607,21.608101242029324,29.90357747595289,0.5196452480924496
+standard,lightgbm,quality,30,bod_mg_l,test,485,series_b79cd759c453,중랑물재생센터,제1처리장,547,21.66933057114513,30.25970249294468,0.4946246068648382
+standard,lightgbm,quality,30,tn_mg_l,validation,161,series_2b498f0fc9d3,중랑물재생센터,제2처리장,731,4.310543881906543,7.159226666030576,0.3321375897429475
+standard,lightgbm,quality,30,tn_mg_l,validation,161,series_38b56308fe33,탄천물재생센터,처리장 구분없음,731,5.314780879938343,7.118662932080628,0.37554158988715
+standard,lightgbm,quality,30,tn_mg_l,validation,161,series_5570e6bfc807,서남물재생센터,처리장 구분없음,731,1.99823616783472,3.0282277894495526,0.6261863891775976
+standard,lightgbm,quality,30,tn_mg_l,validation,161,series_7283ed219bce,중랑물재생센터,제4처리장,731,3.163471895205147,4.886989239124881,0.5095365901965985
+standard,lightgbm,quality,30,tn_mg_l,validation,161,series_815bcfa5d234,난지물재생센터,처리장 구분없음,731,2.4269698434729854,3.70961094948736,0.622207859239519
+standard,lightgbm,quality,30,tn_mg_l,validation,161,series_b2431e9bb980,중랑물재생센터,제3처리장,731,3.163471895205147,4.886989239124881,0.5095365901965985
+standard,lightgbm,quality,30,tn_mg_l,validation,161,series_b79cd759c453,중랑물재생센터,제1처리장,670,3.432791835936807,4.928063618462901,0.4489352623464316
+standard,lightgbm,quality,30,tn_mg_l,test,161,series_2b498f0fc9d3,중랑물재생센터,제2처리장,578,4.053537830010734,5.997698711562353,0.489740180907197
+standard,lightgbm,quality,30,tn_mg_l,test,161,series_38b56308fe33,탄천물재생센터,처리장 구분없음,216,4.232847393004199,5.729008286175052,0.182425323744833
+standard,lightgbm,quality,30,tn_mg_l,test,161,series_5570e6bfc807,서남물재생센터,처리장 구분없음,638,2.952586842752942,4.400502357028964,0.5877163008680095
+standard,lightgbm,quality,30,tn_mg_l,test,161,series_7283ed219bce,중랑물재생센터,제4처리장,607,3.9411370378879536,5.691176006358198,0.4442052889281718
+standard,lightgbm,quality,30,tn_mg_l,test,161,series_815bcfa5d234,난지물재생센터,처리장 구분없음,638,3.006055367304099,4.4114486006793685,0.6399628084820616
+standard,lightgbm,quality,30,tn_mg_l,test,161,series_b2431e9bb980,중랑물재생센터,제3처리장,607,3.9411370378879536,5.691176006358198,0.4442052889281718
+standard,lightgbm,quality,30,tn_mg_l,test,161,series_b79cd759c453,중랑물재생센터,제1처리장,547,3.800432941118181,5.460553819805275,0.4528680276589941
+standard,lightgbm,quality,30,tp_mg_l,validation,315,series_2b498f0fc9d3,중랑물재생센터,제2처리장,731,1.2947584898461717,2.8287046325445493,0.1071201973085719
+standard,lightgbm,quality,30,tp_mg_l,validation,315,series_38b56308fe33,탄천물재생센터,처리장 구분없음,731,0.5520216495024756,0.7804096631607136,0.2228514174009259
+standard,lightgbm,quality,30,tp_mg_l,validation,315,series_5570e6bfc807,서남물재생센터,처리장 구분없음,731,0.2891308946748403,0.4198761282868962,0.657009902068872
+standard,lightgbm,quality,30,tp_mg_l,validation,315,series_7283ed219bce,중랑물재생센터,제4처리장,731,0.4483622717986216,0.6743151858896446,0.4778974035437675
+standard,lightgbm,quality,30,tp_mg_l,validation,315,series_815bcfa5d234,난지물재생센터,처리장 구분없음,731,0.2712299283265904,0.3968234544283758,0.589229331271423
+standard,lightgbm,quality,30,tp_mg_l,validation,315,series_b2431e9bb980,중랑물재생센터,제3처리장,731,0.4483622717986216,0.6743151858896446,0.4778974035437675
+standard,lightgbm,quality,30,tp_mg_l,validation,315,series_b79cd759c453,중랑물재생센터,제1처리장,670,0.4071577864624405,0.6024885777888273,0.3704404753548169
+standard,lightgbm,quality,30,tp_mg_l,test,315,series_2b498f0fc9d3,중랑물재생센터,제2처리장,578,0.890949227134733,1.9490763353568188,0.2023280742244141
+standard,lightgbm,quality,30,tp_mg_l,test,315,series_38b56308fe33,탄천물재생센터,처리장 구분없음,216,0.465876080072432,0.6470099037350794,0.2070522345225266
+standard,lightgbm,quality,30,tp_mg_l,test,315,series_5570e6bfc807,서남물재생센터,처리장 구분없음,638,0.4955605528876381,0.8059396392866331,0.455708898280561
+standard,lightgbm,quality,30,tp_mg_l,test,315,series_7283ed219bce,중랑물재생센터,제4처리장,607,0.5852376521143157,0.819171016686779,0.3705935112659841
+standard,lightgbm,quality,30,tp_mg_l,test,315,series_815bcfa5d234,난지물재생센터,처리장 구분없음,638,0.2848523838678521,0.430089929349455,0.5292016585193908
+standard,lightgbm,quality,30,tp_mg_l,test,315,series_b2431e9bb980,중랑물재생센터,제3처리장,607,0.5852376521143157,0.819171016686779,0.3705935112659841
+standard,lightgbm,quality,30,tp_mg_l,test,315,series_b79cd759c453,중랑물재생센터,제1처리장,547,0.5785060133980687,0.8107930123697755,0.3590302932878995
+standard,lightgbm,quality_temperature,30,bod_mg_l,validation,330,series_2b498f0fc9d3,중랑물재생센터,제2처리장,731,43.606375329382765,78.4891032437067,0.2470364286491148
+standard,lightgbm,quality_temperature,30,bod_mg_l,validation,330,series_38b56308fe33,탄천물재생센터,처리장 구분없음,731,29.323028617676854,42.74948540588184,0.2954835597476496
+standard,lightgbm,quality_temperature,30,bod_mg_l,validation,330,series_5570e6bfc807,서남물재생센터,처리장 구분없음,731,12.505554638194289,17.189925494224717,0.78926858349783
+standard,lightgbm,quality_temperature,30,bod_mg_l,validation,330,series_7283ed219bce,중랑물재생센터,제4처리장,731,22.39448329712895,29.97824102441927,0.4251048455011789
+standard,lightgbm,quality_temperature,30,bod_mg_l,validation,330,series_815bcfa5d234,난지물재생센터,처리장 구분없음,731,17.559477896080168,23.431526334736304,0.5262967368009979
+standard,lightgbm,quality_temperature,30,bod_mg_l,validation,330,series_b2431e9bb980,중랑물재생센터,제3처리장,731,22.389574864977813,29.99145380499517,0.4245979686988704
+standard,lightgbm,quality_temperature,30,bod_mg_l,validation,330,series_b79cd759c453,중랑물재생센터,제1처리장,670,19.945902152182654,28.06071640243414,0.5944916226942628
+standard,lightgbm,quality_temperature,30,bod_mg_l,test,330,series_2b498f0fc9d3,중랑물재생센터,제2처리장,578,28.88781060367092,51.65568939193086,0.5754226825856146
+standard,lightgbm,quality_temperature,30,bod_mg_l,test,330,series_38b56308fe33,탄천물재생센터,처리장 구분없음,216,32.70561474870318,47.161365987999055,0.0394292292024759
+standard,lightgbm,quality_temperature,30,bod_mg_l,test,330,series_5570e6bfc807,서남물재생센터,처리장 구분없음,638,20.949164024961448,31.735428296110253,0.7324466648820982
+standard,lightgbm,quality_temperature,30,bod_mg_l,test,330,series_7283ed219bce,중랑물재생센터,제4처리장,607,21.33580427398644,29.72555475480512,0.5253475436057452
+standard,lightgbm,quality_temperature,30,bod_mg_l,test,330,series_815bcfa5d234,난지물재생센터,처리장 구분없음,638,21.1772509489883,29.74215744830289,0.5777037458517482
+standard,lightgbm,quality_temperature,30,bod_mg_l,test,330,series_b2431e9bb980,중랑물재생센터,제3처리장,607,21.357580138495003,29.734873481961028,0.5250498973492564
+standard,lightgbm,quality_temperature,30,bod_mg_l,test,330,series_b79cd759c453,중랑물재생센터,제1처리장,547,21.48915686908718,30.19818782545809,0.4966772641915064
+standard,lightgbm,quality_temperature,30,tn_mg_l,validation,192,series_2b498f0fc9d3,중랑물재생센터,제2처리장,731,4.267215892988382,7.101824743795346,0.3428043554627785
+standard,lightgbm,quality_temperature,30,tn_mg_l,validation,192,series_38b56308fe33,탄천물재생센터,처리장 구분없음,731,5.301053455786061,7.080344114758433,0.3822462494503792
+standard,lightgbm,quality_temperature,30,tn_mg_l,validation,192,series_5570e6bfc807,서남물재생센터,처리장 구분없음,731,1.949743251529933,2.928528793135502,0.6503954905396242
+standard,lightgbm,quality_temperature,30,tn_mg_l,validation,192,series_7283ed219bce,중랑물재생센터,제4처리장,731,3.185215071430058,4.870394791050093,0.5128618077038887
+standard,lightgbm,quality_temperature,30,tn_mg_l,validation,192,series_815bcfa5d234,난지물재생센터,처리장 구분없음,731,2.380575476474267,3.599703141457116,0.6442625696918614
+standard,lightgbm,quality_temperature,30,tn_mg_l,validation,192,series_b2431e9bb980,중랑물재생센터,제3처리장,731,3.184728333807385,4.8703332094764455,0.5128741264370096
+standard,lightgbm,quality_temperature,30,tn_mg_l,validation,192,series_b79cd759c453,중랑물재생센터,제1처리장,670,3.3930466271073265,4.848486724670256,0.4665884295261997
+standard,lightgbm,quality_temperature,30,tn_mg_l,test,192,series_2b498f0fc9d3,중랑물재생센터,제2처리장,578,4.063524442223391,6.014953577351488,0.4868000100297669
+standard,lightgbm,quality_temperature,30,tn_mg_l,test,192,series_38b56308fe33,탄천물재생센터,처리장 구분없음,216,4.265136685621027,5.791303833306063,0.1645485237883404
+standard,lightgbm,quality_temperature,30,tn_mg_l,test,192,series_5570e6bfc807,서남물재생센터,처리장 구분없음,638,2.9279164686632577,4.3414462006188455,0.5987080060866696
+standard,lightgbm,quality_temperature,30,tn_mg_l,test,192,series_7283ed219bce,중랑물재생센터,제4처리장,607,3.903614274661584,5.669100504779347,0.4485086705245901
+standard,lightgbm,quality_temperature,30,tn_mg_l,test,192,series_815bcfa5d234,난지물재생센터,처리장 구분없음,638,2.9965113931872143,4.37508180986138,0.6458744394204211
+standard,lightgbm,quality_temperature,30,tn_mg_l,test,192,series_b2431e9bb980,중랑물재생센터,제3처리장,607,3.9008304646345193,5.667576014897118,0.4488052360584786
+standard,lightgbm,quality_temperature,30,tn_mg_l,test,192,series_b79cd759c453,중랑물재생센터,제1처리장,547,3.774135804656525,5.461538651223917,0.4526706552442008
+standard,lightgbm,quality_temperature,30,tp_mg_l,validation,494,series_2b498f0fc9d3,중랑물재생센터,제2처리장,731,1.2877913052727847,2.833149780694062,0.1043117729348928
+standard,lightgbm,quality_temperature,30,tp_mg_l,validation,494,series_38b56308fe33,탄천물재생센터,처리장 구분없음,731,0.5502718450360643,0.7751073782871193,0.2333757996468398
+standard,lightgbm,quality_temperature,30,tp_mg_l,validation,494,series_5570e6bfc807,서남물재생센터,처리장 구분없음,731,0.2875265656578343,0.4160347443967859,0.6632571234944895
+standard,lightgbm,quality_temperature,30,tp_mg_l,validation,494,series_7283ed219bce,중랑물재생센터,제4처리장,731,0.4484939550447017,0.6720769467875793,0.4813576578379274
+standard,lightgbm,quality_temperature,30,tp_mg_l,validation,494,series_815bcfa5d234,난지물재생센터,처리장 구분없음,731,0.2701365824465298,0.3923716652524363,0.5983941470225168
+standard,lightgbm,quality_temperature,30,tp_mg_l,validation,494,series_b2431e9bb980,중랑물재생센터,제3처리장,731,0.4484939550447017,0.6720769467875793,0.4813576578379274
+standard,lightgbm,quality_temperature,30,tp_mg_l,validation,494,series_b79cd759c453,중랑물재생센터,제1처리장,670,0.4026993974278491,0.5993677949950287,0.3769455948196089
+standard,lightgbm,quality_temperature,30,tp_mg_l,test,494,series_2b498f0fc9d3,중랑물재생센터,제2처리장,578,0.8856465126703771,1.9442792566219969,0.2062497124553551
+standard,lightgbm,quality_temperature,30,tp_mg_l,test,494,series_38b56308fe33,탄천물재생센터,처리장 구분없음,216,0.464136142000621,0.6449666619827978,0.2120525466395216
+standard,lightgbm,quality_temperature,30,tp_mg_l,test,494,series_5570e6bfc807,서남물재생센터,처리장 구분없음,638,0.4917203373691756,0.8012235772735397,0.4620602431116674
+standard,lightgbm,quality_temperature,30,tp_mg_l,test,494,series_7283ed219bce,중랑물재생센터,제4처리장,607,0.5816902941349746,0.8090910578256942,0.3859879949225033
+standard,lightgbm,quality_temperature,30,tp_mg_l,test,494,series_815bcfa5d234,난지물재생센터,처리장 구분없음,638,0.2842635579115171,0.4280786337208475,0.5335946957912393
+standard,lightgbm,quality_temperature,30,tp_mg_l,test,494,series_b2431e9bb980,중랑물재생센터,제3처리장,607,0.5816902941349746,0.8090910578256942,0.3859879949225033
+standard,lightgbm,quality_temperature,30,tp_mg_l,test,494,series_b79cd759c453,중랑물재생센터,제1처리장,547,0.5748342077847762,0.8040669460019754,0.3696207215933155
+rainfall_missing_tolerant,lightgbm,rainfall_c,7,bod_mg_l,validation,323,series_2b498f0fc9d3,중랑물재생센터,제2처리장,731,43.64741975271218,78.18506204660565,0.2528586009584832
+rainfall_missing_tolerant,lightgbm,rainfall_c,7,bod_mg_l,validation,323,series_38b56308fe33,탄천물재생센터,처리장 구분없음,731,28.69635319422982,42.5270855930749,0.3027948410828408
+rainfall_missing_tolerant,lightgbm,rainfall_c,7,bod_mg_l,validation,323,series_5570e6bfc807,서남물재생센터,처리장 구분없음,731,12.50085226691611,16.959142856375887,0.7948889325798396
+rainfall_missing_tolerant,lightgbm,rainfall_c,7,bod_mg_l,validation,323,series_7283ed219bce,중랑물재생센터,제4처리장,731,22.70287223375073,30.205268739752984,0.4163644166057625
+rainfall_missing_tolerant,lightgbm,rainfall_c,7,bod_mg_l,validation,323,series_815bcfa5d234,난지물재생센터,처리장 구분없음,731,17.16877902331572,23.110894939487423,0.5391721221233711
+rainfall_missing_tolerant,lightgbm,rainfall_c,7,bod_mg_l,validation,323,series_b2431e9bb980,중랑물재생센터,제3처리장,731,22.672686398958064,30.22817343465844,0.41547893774623645
+rainfall_missing_tolerant,lightgbm,rainfall_c,7,bod_mg_l,validation,323,series_b79cd759c453,중랑물재생센터,제1처리장,693,19.785469057676416,27.519980879676943,0.6061499865260002
+rainfall_missing_tolerant,lightgbm,rainfall_c,7,bod_mg_l,test,323,series_2b498f0fc9d3,중랑물재생센터,제2처리장,601,29.25665483947367,52.19667713313525,0.5593929207255322
+rainfall_missing_tolerant,lightgbm,rainfall_c,7,bod_mg_l,test,323,series_38b56308fe33,탄천물재생센터,처리장 구분없음,384,26.91746171057524,39.36449065629495,0.15953912716580987
+rainfall_missing_tolerant,lightgbm,rainfall_c,7,bod_mg_l,test,323,series_5570e6bfc807,서남물재생센터,처리장 구분없음,638,21.1767195106504,32.544465183785654,0.7186312124093235
+rainfall_missing_tolerant,lightgbm,rainfall_c,7,bod_mg_l,test,323,series_7283ed219bce,중랑물재생센터,제4처리장,630,21.60819534584512,29.974344900485317,0.5062038597244338
+rainfall_missing_tolerant,lightgbm,rainfall_c,7,bod_mg_l,test,323,series_815bcfa5d234,난지물재생센터,처리장 구분없음,638,21.204568015909732,29.616929694801733,0.5812523707524857
+rainfall_missing_tolerant,lightgbm,rainfall_c,7,bod_mg_l,test,323,series_b2431e9bb980,중랑물재생센터,제3처리장,630,21.63822137207942,29.976368403425262,0.5061371872635851
+rainfall_missing_tolerant,lightgbm,rainfall_c,7,bod_mg_l,test,323,series_b79cd759c453,중랑물재생센터,제1처리장,593,21.42702454618912,29.897784339336745,0.48659623978341393
+rainfall_missing_tolerant,lightgbm,rainfall_c,7,tn_mg_l,validation,453,series_2b498f0fc9d3,중랑물재생센터,제2처리장,731,4.227953512344199,6.979146417179755,0.3653133049977093
+rainfall_missing_tolerant,lightgbm,rainfall_c,7,tn_mg_l,validation,453,series_38b56308fe33,탄천물재생센터,처리장 구분없음,731,5.118802088756862,6.834434490083422,0.42441186915031515
+rainfall_missing_tolerant,lightgbm,rainfall_c,7,tn_mg_l,validation,453,series_5570e6bfc807,서남물재생센터,처리장 구분없음,731,1.8925483609910978,2.756346146614099,0.6902969079366978
+rainfall_missing_tolerant,lightgbm,rainfall_c,7,tn_mg_l,validation,453,series_7283ed219bce,중랑물재생센터,제4처리장,731,3.1614393503878677,4.766060236441461,0.5335093950980307
+rainfall_missing_tolerant,lightgbm,rainfall_c,7,tn_mg_l,validation,453,series_815bcfa5d234,난지물재생센터,처리장 구분없음,731,1.9609166478349764,2.741575295356866,0.7936537667789827
+rainfall_missing_tolerant,lightgbm,rainfall_c,7,tn_mg_l,validation,453,series_b2431e9bb980,중랑물재생센터,제3처리장,731,3.1599552366846764,4.770191453484059,0.532700337269167
+rainfall_missing_tolerant,lightgbm,rainfall_c,7,tn_mg_l,validation,453,series_b79cd759c453,중랑물재생센터,제1처리장,693,3.3385462108520896,4.713894870853789,0.4932559497086695
+rainfall_missing_tolerant,lightgbm,rainfall_c,7,tn_mg_l,test,453,series_2b498f0fc9d3,중랑물재생센터,제2처리장,601,4.09112190333081,5.997459851931801,0.5110399750196963
+rainfall_missing_tolerant,lightgbm,rainfall_c,7,tn_mg_l,test,453,series_38b56308fe33,탄천물재생센터,처리장 구분없음,384,4.35365134723881,5.85773960416301,0.15426730726613647
+rainfall_missing_tolerant,lightgbm,rainfall_c,7,tn_mg_l,test,453,series_5570e6bfc807,서남물재생센터,처리장 구분없음,638,2.759585043883566,3.9397099993008355,0.6695390419652208
+rainfall_missing_tolerant,lightgbm,rainfall_c,7,tn_mg_l,test,453,series_7283ed219bce,중랑물재생센터,제4처리장,630,3.822718079223578,5.421157800938952,0.49554988548241274
+rainfall_missing_tolerant,lightgbm,rainfall_c,7,tn_mg_l,test,453,series_815bcfa5d234,난지물재생센터,처리장 구분없음,638,2.6334764330627807,3.7397108188039954,0.7412615573206418
+rainfall_missing_tolerant,lightgbm,rainfall_c,7,tn_mg_l,test,453,series_b2431e9bb980,중랑물재생센터,제3처리장,630,3.818080004470427,5.421616724967442,0.4954644741787252
+rainfall_missing_tolerant,lightgbm,rainfall_c,7,tn_mg_l,test,453,series_b79cd759c453,중랑물재생센터,제1처리장,593,3.671320972946733,5.263480760538908,0.4817849040480485
+rainfall_missing_tolerant,lightgbm,rainfall_c,7,tp_mg_l,validation,486,series_2b498f0fc9d3,중랑물재생센터,제2처리장,731,1.303274398512258,2.8506742213607157,0.09319694912428877
+rainfall_missing_tolerant,lightgbm,rainfall_c,7,tp_mg_l,validation,486,series_38b56308fe33,탄천물재생센터,처리장 구분없음,731,0.5393158909240082,0.7595884893494651,0.2637665715886395
+rainfall_missing_tolerant,lightgbm,rainfall_c,7,tp_mg_l,validation,486,series_5570e6bfc807,서남물재생센터,처리장 구분없음,731,0.28415125218926723,0.40789678719470435,0.6763021732374576
+rainfall_missing_tolerant,lightgbm,rainfall_c,7,tp_mg_l,validation,486,series_7283ed219bce,중랑물재생센터,제4처리장,731,0.4452334686483257,0.6597573761743889,0.5001974343463766
+rainfall_missing_tolerant,lightgbm,rainfall_c,7,tp_mg_l,validation,486,series_815bcfa5d234,난지물재생센터,처리장 구분없음,731,0.23441139270772987,0.31717210695279924,0.7375813284654349
+rainfall_missing_tolerant,lightgbm,rainfall_c,7,tp_mg_l,validation,486,series_b2431e9bb980,중랑물재생센터,제3처리장,731,0.4450407530272393,0.6596351717087519,0.5003825704313292
+rainfall_missing_tolerant,lightgbm,rainfall_c,7,tp_mg_l,validation,486,series_b79cd759c453,중랑물재생센터,제1처리장,693,0.39908366482709584,0.5871929992639501,0.40822552662736766
+rainfall_missing_tolerant,lightgbm,rainfall_c,7,tp_mg_l,test,486,series_2b498f0fc9d3,중랑물재생센터,제2처리장,601,0.8884878106050932,1.9173256328371635,0.21532412179786453
+rainfall_missing_tolerant,lightgbm,rainfall_c,7,tp_mg_l,test,486,series_38b56308fe33,탄천물재생센터,처리장 구분없음,384,0.4651151283665908,0.6572368062416373,0.22049054696829717
+rainfall_missing_tolerant,lightgbm,rainfall_c,7,tp_mg_l,test,486,series_5570e6bfc807,서남물재생센터,처리장 구분없음,638,0.4787225734112327,0.7747774265201994,0.49698594640236715
+rainfall_missing_tolerant,lightgbm,rainfall_c,7,tp_mg_l,test,486,series_7283ed219bce,중랑물재생센터,제4처리장,630,0.5918350654566106,0.7984554397199736,0.39285499689631753
+rainfall_missing_tolerant,lightgbm,rainfall_c,7,tp_mg_l,test,486,series_815bcfa5d234,난지물재생센터,처리장 구분없음,638,0.24330477421229987,0.36807478723490245,0.6551831210953643
+rainfall_missing_tolerant,lightgbm,rainfall_c,7,tp_mg_l,test,486,series_b2431e9bb980,중랑물재생센터,제3처리장,630,0.5928742674664302,0.7998071763715262,0.3907975374303465
+rainfall_missing_tolerant,lightgbm,rainfall_c,7,tp_mg_l,test,486,series_b79cd759c453,중랑물재생센터,제1처리장,593,0.585644427406637,0.7895660517582741,0.3742849186921582
+rainfall_missing_tolerant,lightgbm,rainfall_d,7,bod_mg_l,validation,410,series_2b498f0fc9d3,중랑물재생센터,제2처리장,731,43.82544422641546,78.29433567812244,0.25076869004812985
+rainfall_missing_tolerant,lightgbm,rainfall_d,7,bod_mg_l,validation,410,series_38b56308fe33,탄천물재생센터,처리장 구분없음,731,28.791211875837398,42.62770604627375,0.2994917183633594
+rainfall_missing_tolerant,lightgbm,rainfall_d,7,bod_mg_l,validation,410,series_5570e6bfc807,서남물재생센터,처리장 구분없음,731,12.447233828745897,16.933714807114043,0.795503546694462
+rainfall_missing_tolerant,lightgbm,rainfall_d,7,bod_mg_l,validation,410,series_7283ed219bce,중랑물재생센터,제4처리장,731,22.657758813759273,30.159782155643885,0.4181209048573985
+rainfall_missing_tolerant,lightgbm,rainfall_d,7,bod_mg_l,validation,410,series_815bcfa5d234,난지물재생센터,처리장 구분없음,731,17.102672847705506,23.088112592765878,0.5400802276533267
+rainfall_missing_tolerant,lightgbm,rainfall_d,7,bod_mg_l,validation,410,series_b2431e9bb980,중랑물재생센터,제3처리장,731,22.629889072106526,30.18590848483302,0.41711234655024254
+rainfall_missing_tolerant,lightgbm,rainfall_d,7,bod_mg_l,validation,410,series_b79cd759c453,중랑물재생센터,제1처리장,693,19.671979385682413,27.40751378574283,0.6093625363580714
+rainfall_missing_tolerant,lightgbm,rainfall_d,7,bod_mg_l,test,410,series_2b498f0fc9d3,중랑물재생센터,제2처리장,601,29.462346080900385,52.58521164859715,0.5528090455889365
+rainfall_missing_tolerant,lightgbm,rainfall_d,7,bod_mg_l,test,410,series_38b56308fe33,탄천물재생센터,처리장 구분없음,384,26.442018718422258,39.11783909250579,0.17003851520946733
+rainfall_missing_tolerant,lightgbm,rainfall_d,7,bod_mg_l,test,410,series_5570e6bfc807,서남물재생센터,처리장 구분없음,638,21.282279222987277,32.77211142386017,0.7146811356309453
+rainfall_missing_tolerant,lightgbm,rainfall_d,7,bod_mg_l,test,410,series_7283ed219bce,중랑물재생센터,제4처리장,630,21.49623972315906,29.761314725482137,0.5131978186653288
+rainfall_missing_tolerant,lightgbm,rainfall_d,7,bod_mg_l,test,410,series_815bcfa5d234,난지물재생센터,처리장 구분없음,638,21.050854504813717,29.43524082195083,0.586374334358488
+rainfall_missing_tolerant,lightgbm,rainfall_d,7,bod_mg_l,test,410,series_b2431e9bb980,중랑물재생센터,제3처리장,630,21.559863268209643,29.787311656727233,0.5123469899788595
+rainfall_missing_tolerant,lightgbm,rainfall_d,7,bod_mg_l,test,410,series_b79cd759c453,중랑물재생센터,제1처리장,593,21.269801957106075,29.6729139595589,0.49429012990534027
+rainfall_missing_tolerant,lightgbm,rainfall_d,7,tn_mg_l,validation,224,series_2b498f0fc9d3,중랑물재생센터,제2처리장,731,4.2063094704078114,6.9457678243494785,0.37136971583736345
+rainfall_missing_tolerant,lightgbm,rainfall_d,7,tn_mg_l,validation,224,series_38b56308fe33,탄천물재생센터,처리장 구분없음,731,5.093689003605957,6.819427338197613,0.4269368636789985
+rainfall_missing_tolerant,lightgbm,rainfall_d,7,tn_mg_l,validation,224,series_5570e6bfc807,서남물재생센터,처리장 구분없음,731,1.9260313586101863,2.7922318917810434,0.6821801667797782
+rainfall_missing_tolerant,lightgbm,rainfall_d,7,tn_mg_l,validation,224,series_7283ed219bce,중랑물재생센터,제4처리장,731,3.1637913895848655,4.773935330380864,0.5319665306791317
+rainfall_missing_tolerant,lightgbm,rainfall_d,7,tn_mg_l,validation,224,series_815bcfa5d234,난지물재생센터,처리장 구분없음,731,2.0171508298008707,2.8238076860434265,0.78108958643672
+rainfall_missing_tolerant,lightgbm,rainfall_d,7,tn_mg_l,validation,224,series_b2431e9bb980,중랑물재생센터,제3처리장,731,3.167731843904898,4.783258475981258,0.5301366755516732
+rainfall_missing_tolerant,lightgbm,rainfall_d,7,tn_mg_l,validation,224,series_b79cd759c453,중랑물재생센터,제1처리장,693,3.322055831930622,4.694512144121653,0.4974146712592441
+rainfall_missing_tolerant,lightgbm,rainfall_d,7,tn_mg_l,test,224,series_2b498f0fc9d3,중랑물재생센터,제2처리장,601,4.093931337194059,6.001599922763379,0.5103646798485655
+rainfall_missing_tolerant,lightgbm,rainfall_d,7,tn_mg_l,test,224,series_38b56308fe33,탄천물재생센터,처리장 구분없음,384,4.335661157468476,5.850437528861545,0.156374520992544
+rainfall_missing_tolerant,lightgbm,rainfall_d,7,tn_mg_l,test,224,series_5570e6bfc807,서남물재생센터,처리장 구분없음,638,2.79050808815717,4.004792054293121,0.6585307589292942
+rainfall_missing_tolerant,lightgbm,rainfall_d,7,tn_mg_l,test,224,series_7283ed219bce,중랑물재생센터,제4처리장,630,3.8284627334923567,5.447688908336247,0.49060025282900777
+rainfall_missing_tolerant,lightgbm,rainfall_d,7,tn_mg_l,test,224,series_815bcfa5d234,난지물재생센터,처리장 구분없음,638,2.6321014267937684,3.7282047477838054,0.7428512433875818
+rainfall_missing_tolerant,lightgbm,rainfall_d,7,tn_mg_l,test,224,series_b2431e9bb980,중랑물재생센터,제3처리장,630,3.823963341917321,5.450734479288033,0.49003052619320164
+rainfall_missing_tolerant,lightgbm,rainfall_d,7,tn_mg_l,test,224,series_b79cd759c453,중랑물재생센터,제1처리장,593,3.6801010544505517,5.260831254210587,0.48230648612191873
+rainfall_missing_tolerant,lightgbm,rainfall_d,7,tp_mg_l,validation,329,series_2b498f0fc9d3,중랑물재생센터,제2처리장,731,1.3128723218482143,2.860489932685215,0.08694141760917817
+rainfall_missing_tolerant,lightgbm,rainfall_d,7,tp_mg_l,validation,329,series_38b56308fe33,탄천물재생센터,처리장 구분없음,731,0.5375594270802236,0.7578971168758144,0.26704165693182813
+rainfall_missing_tolerant,lightgbm,rainfall_d,7,tp_mg_l,validation,329,series_5570e6bfc807,서남물재생센터,처리장 구분없음,731,0.2864744979593344,0.40946574592465307,0.673807202474423
+rainfall_missing_tolerant,lightgbm,rainfall_d,7,tp_mg_l,validation,329,series_7283ed219bce,중랑물재생센터,제4처리장,731,0.44401454439762406,0.6597487324956929,0.5002105303863613
+rainfall_missing_tolerant,lightgbm,rainfall_d,7,tp_mg_l,validation,329,series_815bcfa5d234,난지물재생센터,처리장 구분없음,731,0.23786841059535135,0.32261349820319546,0.7285000043384839
+rainfall_missing_tolerant,lightgbm,rainfall_d,7,tp_mg_l,validation,329,series_b2431e9bb980,중랑물재생센터,제3처리장,731,0.4438036713564221,0.6598034215939638,0.5001276680269748
+rainfall_missing_tolerant,lightgbm,rainfall_d,7,tp_mg_l,validation,329,series_b79cd759c453,중랑물재생센터,제1처리장,693,0.3974380717754801,0.5879016996720141,0.4067962047560032
+rainfall_missing_tolerant,lightgbm,rainfall_d,7,tp_mg_l,test,329,series_2b498f0fc9d3,중랑물재생센터,제2처리장,601,0.89301308698322,1.924402137373051,0.20952123736302253
+rainfall_missing_tolerant,lightgbm,rainfall_d,7,tp_mg_l,test,329,series_38b56308fe33,탄천물재생센터,처리장 구분없음,384,0.4677896632866179,0.6591701306434226,0.21589779990964686
+rainfall_missing_tolerant,lightgbm,rainfall_d,7,tp_mg_l,test,329,series_5570e6bfc807,서남물재생센터,처리장 구분없음,638,0.47826501860217,0.7765159957924033,0.49472592708261476
+rainfall_missing_tolerant,lightgbm,rainfall_d,7,tp_mg_l,test,329,series_7283ed219bce,중랑물재생센터,제4처리장,630,0.5911775392948059,0.8000443637274975,0.3904361589605313
+rainfall_missing_tolerant,lightgbm,rainfall_d,7,tp_mg_l,test,329,series_815bcfa5d234,난지물재생센터,처리장 구분없음,638,0.24231911948555468,0.3665953430433469,0.657949472501488
+rainfall_missing_tolerant,lightgbm,rainfall_d,7,tp_mg_l,test,329,series_b2431e9bb980,중랑물재생센터,제3처리장,630,0.5922901699436125,0.8022063370247844,0.3871372384362579
+rainfall_missing_tolerant,lightgbm,rainfall_d,7,tp_mg_l,test,329,series_b79cd759c453,중랑물재생센터,제1처리장,593,0.5850631666109718,0.7906260477841163,0.3726037402529775
+rainfall_missing_tolerant,lightgbm,rainfall_c,14,bod_mg_l,validation,242,series_2b498f0fc9d3,중랑물재생센터,제2처리장,731,43.63333630130514,78.42277104129106,0.24830857026002628
+rainfall_missing_tolerant,lightgbm,rainfall_c,14,bod_mg_l,validation,242,series_38b56308fe33,탄천물재생센터,처리장 구분없음,731,28.750516944571423,42.465055058639166,0.3048272619259551
+rainfall_missing_tolerant,lightgbm,rainfall_c,14,bod_mg_l,validation,242,series_5570e6bfc807,서남물재생센터,처리장 구분없음,731,12.244602316643638,16.815793563665874,0.798341732336189
+rainfall_missing_tolerant,lightgbm,rainfall_c,14,bod_mg_l,validation,242,series_7283ed219bce,중랑물재생센터,제4처리장,731,22.475582338474084,30.012695239988233,0.42378262355656915
+rainfall_missing_tolerant,lightgbm,rainfall_c,14,bod_mg_l,validation,242,series_815bcfa5d234,난지물재생센터,처리장 구분없음,731,17.10892920192525,22.872679036813405,0.5486231423082026
+rainfall_missing_tolerant,lightgbm,rainfall_c,14,bod_mg_l,validation,242,series_b2431e9bb980,중랑물재생센터,제3처리장,731,22.45054262394241,30.021575052343575,0.42344160392648333
+rainfall_missing_tolerant,lightgbm,rainfall_c,14,bod_mg_l,validation,242,series_b79cd759c453,중랑물재생센터,제1처리장,686,19.628182308020747,27.36913154246359,0.6126895640460397
+rainfall_missing_tolerant,lightgbm,rainfall_c,14,bod_mg_l,test,242,series_2b498f0fc9d3,중랑물재생센터,제2처리장,594,28.71287039286255,51.49129185576785,0.5727140284237847
+rainfall_missing_tolerant,lightgbm,rainfall_c,14,bod_mg_l,test,242,series_38b56308fe33,탄천물재생센터,처리장 구분없음,328,28.48104817607597,41.346656371058955,0.14314146882721657
+rainfall_missing_tolerant,lightgbm,rainfall_c,14,bod_mg_l,test,242,series_5570e6bfc807,서남물재생센터,처리장 구분없음,638,20.82531693740746,31.872420032943847,0.7301317942887193
+rainfall_missing_tolerant,lightgbm,rainfall_c,14,bod_mg_l,test,242,series_7283ed219bce,중랑물재생센터,제4처리장,623,21.233402595648393,29.497710665965588,0.5255327526243403
+rainfall_missing_tolerant,lightgbm,rainfall_c,14,bod_mg_l,test,242,series_815bcfa5d234,난지물재생센터,처리장 구분없음,638,20.947791855848575,29.349088303096213,0.5887920311722814
+rainfall_missing_tolerant,lightgbm,rainfall_c,14,bod_mg_l,test,242,series_b2431e9bb980,중랑물재생센터,제3처리장,623,21.230748145316024,29.472846867474644,0.5263322781371573
+rainfall_missing_tolerant,lightgbm,rainfall_c,14,bod_mg_l,test,242,series_b79cd759c453,중랑물재생센터,제1처리장,579,21.13124542099213,29.540365950591248,0.5061826302028845
+rainfall_missing_tolerant,lightgbm,rainfall_c,14,tn_mg_l,validation,244,series_2b498f0fc9d3,중랑물재생센터,제2처리장,731,4.18297672883572,6.954896932520631,0.3697161606360858
+rainfall_missing_tolerant,lightgbm,rainfall_c,14,tn_mg_l,validation,244,series_38b56308fe33,탄천물재생센터,처리장 구분없음,731,5.070769704851204,6.787787413082687,0.4322421807635968
+rainfall_missing_tolerant,lightgbm,rainfall_c,14,tn_mg_l,validation,244,series_5570e6bfc807,서남물재생센터,처리장 구분없음,731,1.863517664149228,2.7522762225640833,0.6912108261561729
+rainfall_missing_tolerant,lightgbm,rainfall_c,14,tn_mg_l,validation,244,series_7283ed219bce,중랑물재생센터,제4처리장,731,3.127536922711314,4.707715516757883,0.5448607710076192
+rainfall_missing_tolerant,lightgbm,rainfall_c,14,tn_mg_l,validation,244,series_815bcfa5d234,난지물재생센터,처리장 구분없음,731,2.0511381739471237,2.9556461460835557,0.7601713479604413
+rainfall_missing_tolerant,lightgbm,rainfall_c,14,tn_mg_l,validation,244,series_b2431e9bb980,중랑물재생센터,제3처리장,731,3.1279159614024983,4.708769400418946,0.5446569704658312
+rainfall_missing_tolerant,lightgbm,rainfall_c,14,tn_mg_l,validation,244,series_b79cd759c453,중랑물재생센터,제1처리장,686,3.3230486058966577,4.682434479227334,0.503475237179957
+rainfall_missing_tolerant,lightgbm,rainfall_c,14,tn_mg_l,test,244,series_2b498f0fc9d3,중랑물재생센터,제2처리장,594,4.02515122067363,5.892144354113519,0.51426089963503
+rainfall_missing_tolerant,lightgbm,rainfall_c,14,tn_mg_l,test,244,series_38b56308fe33,탄천물재생센터,처리장 구분없음,328,4.202848714161024,5.654628450250526,0.16147809408259095
+rainfall_missing_tolerant,lightgbm,rainfall_c,14,tn_mg_l,test,244,series_5570e6bfc807,서남물재생센터,처리장 구분없음,638,2.76381570029413,4.000654997091127,0.6592358882328588
+rainfall_missing_tolerant,lightgbm,rainfall_c,14,tn_mg_l,test,244,series_7283ed219bce,중랑물재생센터,제4처리장,623,3.7751269980852267,5.397891924308689,0.4977400055116442
+rainfall_missing_tolerant,lightgbm,rainfall_c,14,tn_mg_l,test,244,series_815bcfa5d234,난지물재생센터,처리장 구분없음,638,2.7110147425737923,3.8856928490569196,0.7206672515452076
+rainfall_missing_tolerant,lightgbm,rainfall_c,14,tn_mg_l,test,244,series_b2431e9bb980,중랑물재생센터,제3처리장,623,3.775301619154627,5.399090889177498,0.49751685952225877
+rainfall_missing_tolerant,lightgbm,rainfall_c,14,tn_mg_l,test,244,series_b79cd759c453,중랑물재생센터,제1처리장,579,3.6556887234509325,5.215560113926214,0.49361106156168966
+rainfall_missing_tolerant,lightgbm,rainfall_c,14,tp_mg_l,validation,500,series_2b498f0fc9d3,중랑물재생센터,제2처리장,731,1.2957060108873144,2.8498217121048044,0.0937392365556764
+rainfall_missing_tolerant,lightgbm,rainfall_c,14,tp_mg_l,validation,500,series_38b56308fe33,탄천물재생센터,처리장 구분없음,731,0.5370610980388607,0.7586565455403714,0.26557204201852636
+rainfall_missing_tolerant,lightgbm,rainfall_c,14,tp_mg_l,validation,500,series_5570e6bfc807,서남물재생센터,처리장 구분없음,731,0.28255762991920963,0.4096640596761426,0.6734911604948224
+rainfall_missing_tolerant,lightgbm,rainfall_c,14,tp_mg_l,validation,500,series_7283ed219bce,중랑물재생센터,제4처리장,731,0.4353401689999951,0.6500184686621758,0.5148440468108071
+rainfall_missing_tolerant,lightgbm,rainfall_c,14,tp_mg_l,validation,500,series_815bcfa5d234,난지물재생센터,처리장 구분없음,731,0.2337988749694605,0.3222851219611296,0.7290524224824988
+rainfall_missing_tolerant,lightgbm,rainfall_c,14,tp_mg_l,validation,500,series_b2431e9bb980,중랑물재생센터,제3처리장,731,0.43540090664650605,0.6499246440893522,0.5149840928774265
+rainfall_missing_tolerant,lightgbm,rainfall_c,14,tp_mg_l,validation,500,series_b79cd759c453,중랑물재생센터,제1처리장,686,0.3944236323683164,0.5859949795331731,0.4112237262155396
+rainfall_missing_tolerant,lightgbm,rainfall_c,14,tp_mg_l,test,500,series_2b498f0fc9d3,중랑물재생센터,제2처리장,594,0.8768846093227358,1.9248418109237613,0.21057907543781829
+rainfall_missing_tolerant,lightgbm,rainfall_c,14,tp_mg_l,test,500,series_38b56308fe33,탄천물재생센터,처리장 구분없음,328,0.470051089241325,0.6749287843120579,0.20116527240310877
+rainfall_missing_tolerant,lightgbm,rainfall_c,14,tp_mg_l,test,500,series_5570e6bfc807,서남물재생센터,처리장 구분없음,638,0.47967796483302655,0.7777926837128256,0.49306309566083273
+rainfall_missing_tolerant,lightgbm,rainfall_c,14,tp_mg_l,test,500,series_7283ed219bce,중랑물재생센터,제4처리장,623,0.5654887394338034,0.7749997639149832,0.42746012986834137
+rainfall_missing_tolerant,lightgbm,rainfall_c,14,tp_mg_l,test,500,series_815bcfa5d234,난지물재생센터,처리장 구분없음,638,0.24233846316948326,0.36557205853050573,0.6598563516382634
+rainfall_missing_tolerant,lightgbm,rainfall_c,14,tp_mg_l,test,500,series_b2431e9bb980,중랑물재생센터,제3처리장,623,0.5653679484617897,0.7749719576943405,0.4275012134533873
+rainfall_missing_tolerant,lightgbm,rainfall_c,14,tp_mg_l,test,500,series_b79cd759c453,중랑물재생센터,제1처리장,579,0.5623026562735759,0.7674827788568642,0.4126368646373506
+rainfall_missing_tolerant,lightgbm,rainfall_d,14,bod_mg_l,validation,308,series_2b498f0fc9d3,중랑물재생센터,제2처리장,731,43.503869490596784,78.5184749948585,0.246472783613916
+rainfall_missing_tolerant,lightgbm,rainfall_d,14,bod_mg_l,validation,308,series_38b56308fe33,탄천물재생센터,처리장 구분없음,731,28.82355388322115,42.699507260636025,0.2971298880019203
+rainfall_missing_tolerant,lightgbm,rainfall_d,14,bod_mg_l,validation,308,series_5570e6bfc807,서남물재생센터,처리장 구분없음,731,12.453108472263503,16.96570796445479,0.7947300994388096
+rainfall_missing_tolerant,lightgbm,rainfall_d,14,bod_mg_l,validation,308,series_7283ed219bce,중랑물재생센터,제4처리장,731,22.490091015450247,30.029927130249188,0.4231207593026157
+rainfall_missing_tolerant,lightgbm,rainfall_d,14,bod_mg_l,validation,308,series_815bcfa5d234,난지물재생센터,처리장 구분없음,731,17.14854816969618,23.011358105595104,0.5431330738899887
+rainfall_missing_tolerant,lightgbm,rainfall_d,14,bod_mg_l,validation,308,series_b2431e9bb980,중랑물재생센터,제3처리장,731,22.455844971159483,30.04069524363529,0.4227069710988106
+rainfall_missing_tolerant,lightgbm,rainfall_d,14,bod_mg_l,validation,308,series_b79cd759c453,중랑물재생센터,제1처리장,686,19.57433181165248,27.383103197365234,0.6122940272738315
+rainfall_missing_tolerant,lightgbm,rainfall_d,14,bod_mg_l,test,308,series_2b498f0fc9d3,중랑물재생센터,제2처리장,594,28.84934638692939,51.58634077206169,0.571135099196637
+rainfall_missing_tolerant,lightgbm,rainfall_d,14,bod_mg_l,test,308,series_38b56308fe33,탄천물재생센터,처리장 구분없음,328,28.418540703748686,41.204937994188654,0.1490052799202335
+rainfall_missing_tolerant,lightgbm,rainfall_d,14,bod_mg_l,test,308,series_5570e6bfc807,서남물재생센터,처리장 구분없음,638,20.7392264715641,31.805074817485778,0.7312710320122643
+rainfall_missing_tolerant,lightgbm,rainfall_d,14,bod_mg_l,test,308,series_7283ed219bce,중랑물재생센터,제4처리장,623,21.25818767230871,29.554305595382775,0.5237103603370604
+rainfall_missing_tolerant,lightgbm,rainfall_d,14,bod_mg_l,test,308,series_815bcfa5d234,난지물재생센터,처리장 구분없음,638,21.094746670957633,29.394531652105332,0.5875176383175993
+rainfall_missing_tolerant,lightgbm,rainfall_d,14,bod_mg_l,test,308,series_b2431e9bb980,중랑물재생센터,제3처리장,623,21.272642699522525,29.5455801039924,0.5239915544024824
+rainfall_missing_tolerant,lightgbm,rainfall_d,14,bod_mg_l,test,308,series_b79cd759c453,중랑물재생센터,제1처리장,579,21.197795493990295,29.610833200073873,0.5038238607584049
+rainfall_missing_tolerant,lightgbm,rainfall_d,14,tn_mg_l,validation,396,series_2b498f0fc9d3,중랑물재생센터,제2처리장,731,4.168456098977277,6.891713566365812,0.38111605981703667
+rainfall_missing_tolerant,lightgbm,rainfall_d,14,tn_mg_l,validation,396,series_38b56308fe33,탄천물재생센터,처리장 구분없음,731,5.023520632642898,6.725915924498716,0.4425453683147761
+rainfall_missing_tolerant,lightgbm,rainfall_d,14,tn_mg_l,validation,396,series_5570e6bfc807,서남물재생센터,처리장 구분없음,731,1.8812060474461085,2.754265233042962,0.690764354376507
+rainfall_missing_tolerant,lightgbm,rainfall_d,14,tn_mg_l,validation,396,series_7283ed219bce,중랑물재생센터,제4처리장,731,3.1040301492315954,4.694633668728999,0.5473867476092177
+rainfall_missing_tolerant,lightgbm,rainfall_d,14,tn_mg_l,validation,396,series_815bcfa5d234,난지물재생센터,처리장 구분없음,731,2.072426900808384,2.9411133764448816,0.7625240016081796
+rainfall_missing_tolerant,lightgbm,rainfall_d,14,tn_mg_l,validation,396,series_b2431e9bb980,중랑물재생센터,제3처리장,731,3.103986477328013,4.696798343148166,0.5469692555193495
+rainfall_missing_tolerant,lightgbm,rainfall_d,14,tn_mg_l,validation,396,series_b79cd759c453,중랑물재생센터,제1처리장,686,3.3321065493263533,4.689316231735892,0.502014684344508
+rainfall_missing_tolerant,lightgbm,rainfall_d,14,tn_mg_l,test,396,series_2b498f0fc9d3,중랑물재생센터,제2처리장,594,3.9645217309042096,5.866314185570817,0.5185103615347647
+rainfall_missing_tolerant,lightgbm,rainfall_d,14,tn_mg_l,test,396,series_38b56308fe33,탄천물재생센터,처리장 구분없음,328,4.171490221171675,5.6608937470137795,0.15961890948621216
+rainfall_missing_tolerant,lightgbm,rainfall_d,14,tn_mg_l,test,396,series_5570e6bfc807,서남물재생센터,처리장 구분없음,638,2.77283085511263,3.9960910690763147,0.660012928883388
+rainfall_missing_tolerant,lightgbm,rainfall_d,14,tn_mg_l,test,396,series_7283ed219bce,중랑물재생센터,제4처리장,623,3.751650453885675,5.3544754978375595,0.5057870868037562
+rainfall_missing_tolerant,lightgbm,rainfall_d,14,tn_mg_l,test,396,series_815bcfa5d234,난지물재생센터,처리장 구분없음,638,2.6863623407350166,3.8119117402739926,0.731174419982693
+rainfall_missing_tolerant,lightgbm,rainfall_d,14,tn_mg_l,test,396,series_b2431e9bb980,중랑물재생센터,제3처리장,623,3.7500535252900447,5.353940957883788,0.5058857569205366
+rainfall_missing_tolerant,lightgbm,rainfall_d,14,tn_mg_l,test,396,series_b79cd759c453,중랑물재생센터,제1처리장,579,3.639774122369184,5.171728383861497,0.5020867133584448
+rainfall_missing_tolerant,lightgbm,rainfall_d,14,tp_mg_l,validation,458,series_2b498f0fc9d3,중랑물재생센터,제2처리장,731,1.301519636289431,2.8539514170692044,0.09111079052356075
+rainfall_missing_tolerant,lightgbm,rainfall_d,14,tp_mg_l,validation,458,series_38b56308fe33,탄천물재생센터,처리장 구분없음,731,0.5331397553189963,0.7521818843243673,0.2780543201359972
+rainfall_missing_tolerant,lightgbm,rainfall_d,14,tp_mg_l,validation,458,series_5570e6bfc807,서남물재생센터,처리장 구분없음,731,0.2840360840654376,0.4103452623951354,0.6724043986639066
+rainfall_missing_tolerant,lightgbm,rainfall_d,14,tp_mg_l,validation,458,series_7283ed219bce,중랑물재생센터,제4처리장,731,0.4354584648592234,0.6524142657056939,0.511261141754134
+rainfall_missing_tolerant,lightgbm,rainfall_d,14,tp_mg_l,validation,458,series_815bcfa5d234,난지물재생센터,처리장 구분없음,731,0.23257485694680485,0.318468337003012,0.7354320218970913
+rainfall_missing_tolerant,lightgbm,rainfall_d,14,tp_mg_l,validation,458,series_b2431e9bb980,중랑물재생센터,제3처리장,731,0.43517997135255454,0.6522978034172393,0.5114356154544335
+rainfall_missing_tolerant,lightgbm,rainfall_d,14,tp_mg_l,validation,458,series_b79cd759c453,중랑물재생센터,제1처리장,686,0.39553527754024176,0.5865931737392717,0.4100210458673359
+rainfall_missing_tolerant,lightgbm,rainfall_d,14,tp_mg_l,test,458,series_2b498f0fc9d3,중랑물재생센터,제2처리장,594,0.8796408986151836,1.9371342671225389,0.2004640542913272
+rainfall_missing_tolerant,lightgbm,rainfall_d,14,tp_mg_l,test,458,series_38b56308fe33,탄천물재생센터,처리장 구분없음,328,0.4726019725034813,0.6669299603342987,0.21998762811298134
+rainfall_missing_tolerant,lightgbm,rainfall_d,14,tp_mg_l,test,458,series_5570e6bfc807,서남물재생센터,처리장 구분없음,638,0.4800522858230057,0.7772852659978666,0.4937243126286517
+rainfall_missing_tolerant,lightgbm,rainfall_d,14,tp_mg_l,test,458,series_7283ed219bce,중랑물재생센터,제4처리장,623,0.5645064524522606,0.7750169658545358,0.4274347133301737
+rainfall_missing_tolerant,lightgbm,rainfall_d,14,tp_mg_l,test,458,series_815bcfa5d234,난지물재생센터,처리장 구분없음,638,0.2430702502712415,0.3633574915117359,0.6639649223060421
+rainfall_missing_tolerant,lightgbm,rainfall_d,14,tp_mg_l,test,458,series_b2431e9bb980,중랑물재생센터,제3처리장,623,0.5645245863225709,0.7753103295872251,0.42700117009807426
+rainfall_missing_tolerant,lightgbm,rainfall_d,14,tp_mg_l,test,458,series_b79cd759c453,중랑물재생센터,제1처리장,579,0.562876358451588,0.7702104627901539,0.4084543915228612
+rainfall_missing_tolerant,lightgbm,rainfall_c,30,bod_mg_l,validation,459,series_2b498f0fc9d3,중랑물재생센터,제2처리장,731,43.204032291833244,78.37271513933749,0.2492678473629516
+rainfall_missing_tolerant,lightgbm,rainfall_c,30,bod_mg_l,validation,459,series_38b56308fe33,탄천물재생센터,처리장 구분없음,731,28.72044436218495,42.484681548426416,0.30418452386428396
+rainfall_missing_tolerant,lightgbm,rainfall_c,30,bod_mg_l,validation,459,series_5570e6bfc807,서남물재생센터,처리장 구분없음,731,12.455719057564789,17.01611087738071,0.7935086273310721
+rainfall_missing_tolerant,lightgbm,rainfall_c,30,bod_mg_l,validation,459,series_7283ed219bce,중랑물재생센터,제4처리장,731,22.256664987789406,29.629194176628626,0.43841430778375734
+rainfall_missing_tolerant,lightgbm,rainfall_c,30,bod_mg_l,validation,459,series_815bcfa5d234,난지물재생센터,처리장 구분없음,731,17.087799534445008,22.910626596981253,0.5471241609844836
+rainfall_missing_tolerant,lightgbm,rainfall_c,30,bod_mg_l,validation,459,series_b2431e9bb980,중랑물재생센터,제3처리장,731,22.242975195294605,29.61662586258139,0.4388906412478061
+rainfall_missing_tolerant,lightgbm,rainfall_c,30,bod_mg_l,validation,459,series_b79cd759c453,중랑물재생센터,제1처리장,670,19.8803029528973,27.972375370693882,0.5970408547742276
+rainfall_missing_tolerant,lightgbm,rainfall_c,30,bod_mg_l,test,459,series_2b498f0fc9d3,중랑물재생센터,제2처리장,578,29.074243414920694,52.14755564178094,0.5672985235020918
+rainfall_missing_tolerant,lightgbm,rainfall_c,30,bod_mg_l,test,459,series_38b56308fe33,탄천물재생센터,처리장 구분없음,216,32.31767575968905,46.76645980744439,0.055448576487424406
+rainfall_missing_tolerant,lightgbm,rainfall_c,30,bod_mg_l,test,459,series_5570e6bfc807,서남물재생센터,처리장 구분없음,638,21.266627932862725,32.33539789217276,0.7222346554287626
+rainfall_missing_tolerant,lightgbm,rainfall_c,30,bod_mg_l,test,459,series_7283ed219bce,중랑물재생센터,제4처리장,607,21.184848762922368,29.35538360012856,0.5370955927332013
+rainfall_missing_tolerant,lightgbm,rainfall_c,30,bod_mg_l,test,459,series_815bcfa5d234,난지물재생센터,처리장 구분없음,638,20.771158832747957,29.185692025991322,0.5933579526921864
+rainfall_missing_tolerant,lightgbm,rainfall_c,30,bod_mg_l,test,459,series_b2431e9bb980,중랑물재생센터,제3처리장,607,21.1918077388726,29.351934904663892,0.5372043511522692
+rainfall_missing_tolerant,lightgbm,rainfall_c,30,bod_mg_l,test,459,series_b79cd759c453,중랑물재생센터,제1처리장,547,21.274232481947184,29.76108896160529,0.5111423444634428
+rainfall_missing_tolerant,lightgbm,rainfall_c,30,tn_mg_l,validation,210,series_2b498f0fc9d3,중랑물재생센터,제2처리장,731,4.11307970358019,6.908200130890697,0.37815149252920344
+rainfall_missing_tolerant,lightgbm,rainfall_c,30,tn_mg_l,validation,210,series_38b56308fe33,탄천물재생센터,처리장 구분없음,731,5.06531045389888,6.758027269324406,0.43720978300448743
+rainfall_missing_tolerant,lightgbm,rainfall_c,30,tn_mg_l,validation,210,series_5570e6bfc807,서남물재생센터,처리장 구분없음,731,1.87197664480405,2.7602041854261814,0.689429322593591
+rainfall_missing_tolerant,lightgbm,rainfall_c,30,tn_mg_l,validation,210,series_7283ed219bce,중랑물재생센터,제4처리장,731,3.069483581895025,4.674483184424583,0.55126385643961
+rainfall_missing_tolerant,lightgbm,rainfall_c,30,tn_mg_l,validation,210,series_815bcfa5d234,난지물재생센터,처리장 구분없음,731,2.066130949126465,2.948118138858912,0.761391475489828
+rainfall_missing_tolerant,lightgbm,rainfall_c,30,tn_mg_l,validation,210,series_b2431e9bb980,중랑물재생센터,제3처리장,731,3.069644770753207,4.675628634176364,0.5510439101222855
+rainfall_missing_tolerant,lightgbm,rainfall_c,30,tn_mg_l,validation,210,series_b79cd759c453,중랑물재생센터,제1처리장,670,3.349866652220948,4.739107921812303,0.49038382024309046
+rainfall_missing_tolerant,lightgbm,rainfall_c,30,tn_mg_l,test,210,series_2b498f0fc9d3,중랑물재생센터,제2처리장,578,3.9911476956493583,5.875142267952747,0.5103803323971154
+rainfall_missing_tolerant,lightgbm,rainfall_c,30,tn_mg_l,test,210,series_38b56308fe33,탄천물재생센터,처리장 구분없음,216,4.1431151377026065,5.573058492388706,0.22633004296630943
+rainfall_missing_tolerant,lightgbm,rainfall_c,30,tn_mg_l,test,210,series_5570e6bfc807,서남물재생센터,처리장 구분없음,638,2.7871463368956646,4.0224063356062345,0.6555203841089958
+rainfall_missing_tolerant,lightgbm,rainfall_c,30,tn_mg_l,test,210,series_7283ed219bce,중랑물재생센터,제4처리장,607,3.777496097467247,5.409850383384209,0.4977951708680822
+rainfall_missing_tolerant,lightgbm,rainfall_c,30,tn_mg_l,test,210,series_815bcfa5d234,난지물재생센터,처리장 구분없음,638,2.7090203028898214,3.870939572617658,0.722784377077015
+rainfall_missing_tolerant,lightgbm,rainfall_c,30,tn_mg_l,test,210,series_b2431e9bb980,중랑물재생센터,제3처리장,607,3.7777703639882594,5.410757104859917,0.4976268120293156
+rainfall_missing_tolerant,lightgbm,rainfall_c,30,tn_mg_l,test,210,series_b79cd759c453,중랑물재생센터,제1처리장,547,3.651298767384084,5.222485191079279,0.4995356521787828
+rainfall_missing_tolerant,lightgbm,rainfall_c,30,tp_mg_l,validation,455,series_2b498f0fc9d3,중랑물재생센터,제2처리장,731,1.2799248417527311,2.839681607756197,0.10017699348732856
+rainfall_missing_tolerant,lightgbm,rainfall_c,30,tp_mg_l,validation,455,series_38b56308fe33,탄천물재생센터,처리장 구분없음,731,0.5313777736781132,0.7506419786750407,0.281007303344748
+rainfall_missing_tolerant,lightgbm,rainfall_c,30,tp_mg_l,validation,455,series_5570e6bfc807,서남물재생센터,처리장 구분없음,731,0.2819278189789064,0.4025201959875091,0.6847794188355916
+rainfall_missing_tolerant,lightgbm,rainfall_c,30,tp_mg_l,validation,455,series_7283ed219bce,중랑물재생센터,제4처리장,731,0.4291123750156335,0.647074716350899,0.519228368534522
+rainfall_missing_tolerant,lightgbm,rainfall_c,30,tp_mg_l,validation,455,series_815bcfa5d234,난지물재생센터,처리장 구분없음,731,0.23537581521195045,0.3246769534032824,0.7250158370167682
+rainfall_missing_tolerant,lightgbm,rainfall_c,30,tp_mg_l,validation,455,series_b2431e9bb980,중랑물재생센터,제3처리장,731,0.4290373891432215,0.646888988075917,0.5195043183398751
+rainfall_missing_tolerant,lightgbm,rainfall_c,30,tp_mg_l,validation,455,series_b79cd759c453,중랑물재생센터,제1처리장,670,0.3976062958158102,0.5885628752730213,0.3992069604578117
+rainfall_missing_tolerant,lightgbm,rainfall_c,30,tp_mg_l,test,455,series_2b498f0fc9d3,중랑물재생센터,제2처리장,578,0.8760398188000289,1.9469852516525197,0.2040387347783853
+rainfall_missing_tolerant,lightgbm,rainfall_c,30,tp_mg_l,test,455,series_38b56308fe33,탄천물재생센터,처리장 구분없음,216,0.4519811062695511,0.6165387925356779,0.2799816946744157
+rainfall_missing_tolerant,lightgbm,rainfall_c,30,tp_mg_l,test,455,series_5570e6bfc807,서남물재생센터,처리장 구분없음,638,0.4787541830394346,0.7785307465576229,0.49210055430150834
+rainfall_missing_tolerant,lightgbm,rainfall_c,30,tp_mg_l,test,455,series_7283ed219bce,중랑물재생센터,제4처리장,607,0.5653878697500582,0.777198461649989,0.43343998037554354
+rainfall_missing_tolerant,lightgbm,rainfall_c,30,tp_mg_l,test,455,series_815bcfa5d234,난지물재생센터,처리장 구분없음,638,0.24616934070437507,0.37230754749625944,0.6472069199708751
+rainfall_missing_tolerant,lightgbm,rainfall_c,30,tp_mg_l,test,455,series_b2431e9bb980,중랑물재생센터,제3처리장,607,0.5653703987803822,0.7771732269511588,0.43347677082242986
+rainfall_missing_tolerant,lightgbm,rainfall_c,30,tp_mg_l,test,455,series_b79cd759c453,중랑물재생센터,제1처리장,547,0.5615539629590462,0.7717091894573511,0.41933606369843446
+rainfall_missing_tolerant,lightgbm,rainfall_d,30,bod_mg_l,validation,369,series_2b498f0fc9d3,중랑물재생센터,제2처리장,731,43.20825654760489,78.39031274097125,0.24893067469965124
+rainfall_missing_tolerant,lightgbm,rainfall_d,30,bod_mg_l,validation,369,series_38b56308fe33,탄천물재생센터,처리장 구분없음,731,28.754363035005312,42.42084586053675,0.30627395882041264
+rainfall_missing_tolerant,lightgbm,rainfall_d,30,bod_mg_l,validation,369,series_5570e6bfc807,서남물재생센터,처리장 구분없음,731,12.416731450706173,16.929836401383938,0.7955972094730495
+rainfall_missing_tolerant,lightgbm,rainfall_d,30,bod_mg_l,validation,369,series_7283ed219bce,중랑물재생센터,제4처리장,731,22.160443455117896,29.540535330789808,0.44177012278791816
+rainfall_missing_tolerant,lightgbm,rainfall_d,30,bod_mg_l,validation,369,series_815bcfa5d234,난지물재생센터,처리장 구분없음,731,17.04389167213292,22.863172726941677,0.5489982655350472
+rainfall_missing_tolerant,lightgbm,rainfall_d,30,bod_mg_l,validation,369,series_b2431e9bb980,중랑물재생센터,제3처리장,731,22.132896128245303,29.524812139973694,0.4423642094504837
+rainfall_missing_tolerant,lightgbm,rainfall_d,30,bod_mg_l,validation,369,series_b79cd759c453,중랑물재생센터,제1처리장,670,19.902359099910594,27.949848965922328,0.5976896066737603
+rainfall_missing_tolerant,lightgbm,rainfall_d,30,bod_mg_l,test,369,series_2b498f0fc9d3,중랑물재생센터,제2처리장,578,29.117204580867362,52.12227599238038,0.5677179445138612
+rainfall_missing_tolerant,lightgbm,rainfall_d,30,bod_mg_l,test,369,series_38b56308fe33,탄천물재생센터,처리장 구분없음,216,32.20506445311774,47.10265498864261,0.041819362104794644
+rainfall_missing_tolerant,lightgbm,rainfall_d,30,bod_mg_l,test,369,series_5570e6bfc807,서남물재생센터,처리장 구분없음,638,21.327627445750316,32.35901582510905,0.7218287449081067
+rainfall_missing_tolerant,lightgbm,rainfall_d,30,bod_mg_l,test,369,series_7283ed219bce,중랑물재생센터,제4처리장,607,21.325665508921265,29.430179501543112,0.534733677652786
+rainfall_missing_tolerant,lightgbm,rainfall_d,30,bod_mg_l,test,369,series_815bcfa5d234,난지물재생센터,처리장 구분없음,638,20.76055095893522,29.27617130588964,0.5908327625731136
+rainfall_missing_tolerant,lightgbm,rainfall_d,30,bod_mg_l,test,369,series_b2431e9bb980,중랑물재생센터,제3처리장,607,21.324655369317433,29.416183188083213,0.5351761122501031
+rainfall_missing_tolerant,lightgbm,rainfall_d,30,bod_mg_l,test,369,series_b79cd759c453,중랑물재생센터,제1처리장,547,21.50806002606235,29.91051606201671,0.5062210214260425
+rainfall_missing_tolerant,lightgbm,rainfall_d,30,tn_mg_l,validation,295,series_2b498f0fc9d3,중랑물재생센터,제2처리장,731,4.137244172619266,6.919887012234013,0.37604570030586637
+rainfall_missing_tolerant,lightgbm,rainfall_d,30,tn_mg_l,validation,295,series_38b56308fe33,탄천물재생센터,처리장 구분없음,731,5.082671318356654,6.748891624540234,0.43873033808485196
+rainfall_missing_tolerant,lightgbm,rainfall_d,30,tn_mg_l,validation,295,series_5570e6bfc807,서남물재생센터,처리장 구분없음,731,1.864090220729654,2.762311995169643,0.6889548114304636
+rainfall_missing_tolerant,lightgbm,rainfall_d,30,tn_mg_l,validation,295,series_7283ed219bce,중랑물재생센터,제4처리장,731,3.0852763633157005,4.6697552506119075,0.5521711318646394
+rainfall_missing_tolerant,lightgbm,rainfall_d,30,tn_mg_l,validation,295,series_815bcfa5d234,난지물재생센터,처리장 구분없음,731,2.042773402533719,2.916628459148728,0.7664615423300629
+rainfall_missing_tolerant,lightgbm,rainfall_d,30,tn_mg_l,validation,295,series_b2431e9bb980,중랑물재생센터,제3처리장,731,3.085697535273924,4.670861962106657,0.5519588397598015
+rainfall_missing_tolerant,lightgbm,rainfall_d,30,tn_mg_l,validation,295,series_b79cd759c453,중랑물재생센터,제1처리장,670,3.347070922948218,4.739096529338748,0.4903862704012082
+rainfall_missing_tolerant,lightgbm,rainfall_d,30,tn_mg_l,test,295,series_2b498f0fc9d3,중랑물재생센터,제2처리장,578,3.9649359839920644,5.833490497026893,0.5172980325800052
+rainfall_missing_tolerant,lightgbm,rainfall_d,30,tn_mg_l,test,295,series_38b56308fe33,탄천물재생센터,처리장 구분없음,216,4.202975088085937,5.6514678307353865,0.20440682296117785
+rainfall_missing_tolerant,lightgbm,rainfall_d,30,tn_mg_l,test,295,series_5570e6bfc807,서남물재생센터,처리장 구분없음,638,2.795876503866807,4.025993337740679,0.6549057271287447
+rainfall_missing_tolerant,lightgbm,rainfall_d,30,tn_mg_l,test,295,series_7283ed219bce,중랑물재생센터,제4처리장,607,3.790481918159269,5.423628919565857,0.49523374721930524
+rainfall_missing_tolerant,lightgbm,rainfall_d,30,tn_mg_l,test,295,series_815bcfa5d234,난지물재생센터,처리장 구분없음,638,2.7068317805699924,3.8588239327918537,0.7245169737624602
+rainfall_missing_tolerant,lightgbm,rainfall_d,30,tn_mg_l,test,295,series_b2431e9bb980,중랑물재생센터,제3처리장,607,3.790297478020607,5.424487683886105,0.4950738876226791
+rainfall_missing_tolerant,lightgbm,rainfall_d,30,tn_mg_l,test,295,series_b79cd759c453,중랑물재생센터,제1처리장,547,3.6809426578614803,5.271701046187391,0.49005861656467964
+rainfall_missing_tolerant,lightgbm,rainfall_d,30,tp_mg_l,validation,483,series_2b498f0fc9d3,중랑물재생센터,제2처리장,731,1.2813522425909685,2.8413568245544822,0.09911501298738956
+rainfall_missing_tolerant,lightgbm,rainfall_d,30,tp_mg_l,validation,483,series_38b56308fe33,탄천물재생센터,처리장 구분없음,731,0.5316022822736292,0.7478304302478336,0.2863832271151874
+rainfall_missing_tolerant,lightgbm,rainfall_d,30,tp_mg_l,validation,483,series_5570e6bfc807,서남물재생센터,처리장 구분없음,731,0.28160163649882586,0.4040347398468603,0.6824028246941378
+rainfall_missing_tolerant,lightgbm,rainfall_d,30,tp_mg_l,validation,483,series_7283ed219bce,중랑물재생센터,제4처리장,731,0.42974662703986394,0.6479670698150624,0.5179014304223074
+rainfall_missing_tolerant,lightgbm,rainfall_d,30,tp_mg_l,validation,483,series_815bcfa5d234,난지물재생센터,처리장 구분없음,731,0.23673237692892188,0.32359688571607276,0.7268423141007381
+rainfall_missing_tolerant,lightgbm,rainfall_d,30,tp_mg_l,validation,483,series_b2431e9bb980,중랑물재생센터,제3처리장,731,0.42977239838733533,0.6480177714805947,0.5178259816599424
+rainfall_missing_tolerant,lightgbm,rainfall_d,30,tp_mg_l,validation,483,series_b79cd759c453,중랑물재생센터,제1처리장,670,0.39622465982477534,0.5890382673520711,0.3982360273220419
+rainfall_missing_tolerant,lightgbm,rainfall_d,30,tp_mg_l,test,483,series_2b498f0fc9d3,중랑물재생센터,제2처리장,578,0.8745649880941478,1.9456738059622833,0.20511065703319165
+rainfall_missing_tolerant,lightgbm,rainfall_d,30,tp_mg_l,test,483,series_38b56308fe33,탄천물재생센터,처리장 구분없음,216,0.45335016961548846,0.6161497511549648,0.2808900837033579
+rainfall_missing_tolerant,lightgbm,rainfall_d,30,tp_mg_l,test,483,series_5570e6bfc807,서남물재생센터,처리장 구분없음,638,0.47747683033366045,0.7801607488963078,0.489971559532002
+rainfall_missing_tolerant,lightgbm,rainfall_d,30,tp_mg_l,test,483,series_7283ed219bce,중랑물재생센터,제4처리장,607,0.5635474961176923,0.7772924391015161,0.43330295723799095
+rainfall_missing_tolerant,lightgbm,rainfall_d,30,tp_mg_l,test,483,series_815bcfa5d234,난지물재생센터,처리장 구분없음,638,0.24521963054358364,0.3689509833998046,0.6535395049504693
+rainfall_missing_tolerant,lightgbm,rainfall_d,30,tp_mg_l,test,483,series_b2431e9bb980,중랑물재생센터,제3처리장,607,0.5635870628322086,0.7773877713354422,0.433163941842274
+rainfall_missing_tolerant,lightgbm,rainfall_d,30,tp_mg_l,test,483,series_b79cd759c453,중랑물재생센터,제1처리장,547,0.5609694137837377,0.7719182679753184,0.41902138349794604

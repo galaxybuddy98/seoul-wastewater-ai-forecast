@@ -1,0 +1,215 @@
+{
+  "created_at": "2026-11-11T21:29:27.892921+09:00",
+  "prediction_contract": {
+    "grain": "날짜×물재생센터×원본 처리장/유입 관측 계통",
+    "horizon": "t+1일",
+    "targets": [
+      "bod_mg_l",
+      "tn_mg_l",
+      "tp_mg_l"
+    ],
+    "windows": [
+      7,
+      14,
+      30
+    ],
+    "split_by": "target_date",
+    "train_end": "2022-12-31",
+    "validation_end": "2024-12-31",
+    "test_end": "2026-09-30"
+  },
+  "sources": {
+    "quality_csv": {
+      "path": "서울시 물재생센터 수질현황.csv",
+      "rows": 74917,
+      "sha256": "d5ad7dba17b99e8721cf8261366381f82a8dd0fe6bd6aa7845601cbd0f3de6d6"
+    },
+    "flow_csv": {
+      "path": "서울시 물재생센터 하수처리량.csv",
+      "rows": 48771,
+      "sha256": "e4f12f7136faf487cb1a0a45278b7a506dc7479d87fd962b9a0971386b8b0443"
+    },
+    "seoul_api": "미수집: TLS 기본 포트 미지원, 평문 HTTP 8088은 인증키 보호를 위해 사용하지 않음",
+    "weather": "ASOS API 원본 정규화 자료"
+  },
+  "combined": {
+    "rows": 28828,
+    "series": 11,
+    "flow_linked_rows": 18443,
+    "weather_linked_rows": 28828
+  },
+  "artifacts": [
+    {
+      "variant": "quality",
+      "window_days": 7,
+      "common_samples": 28431,
+      "tabular_columns": 33,
+      "sequence_shape": [
+        28431,
+        7,
+        3
+      ]
+    },
+    {
+      "variant": "quality",
+      "window_days": 14,
+      "common_samples": 28200,
+      "tabular_columns": 54,
+      "sequence_shape": [
+        28200,
+        14,
+        3
+      ]
+    },
+    {
+      "variant": "quality",
+      "window_days": 30,
+      "common_samples": 27688,
+      "tabular_columns": 102,
+      "sequence_shape": [
+        27688,
+        30,
+        3
+      ]
+    },
+    {
+      "variant": "quality_temperature",
+      "window_days": 7,
+      "common_samples": 28431,
+      "tabular_columns": 40,
+      "sequence_shape": [
+        28431,
+        7,
+        4
+      ]
+    },
+    {
+      "variant": "quality_temperature",
+      "window_days": 14,
+      "common_samples": 28200,
+      "tabular_columns": 68,
+      "sequence_shape": [
+        28200,
+        14,
+        4
+      ]
+    },
+    {
+      "variant": "quality_temperature",
+      "window_days": 30,
+      "common_samples": 27688,
+      "tabular_columns": 132,
+      "sequence_shape": [
+        27688,
+        30,
+        4
+      ]
+    },
+    {
+      "variant": "quality_weather",
+      "window_days": 7,
+      "common_samples": 344,
+      "tabular_columns": 68,
+      "sequence_shape": [
+        344,
+        7,
+        8
+      ]
+    },
+    {
+      "variant": "quality_weather",
+      "window_days": 14,
+      "common_samples": 79,
+      "tabular_columns": 124,
+      "sequence_shape": [
+        79,
+        14,
+        8
+      ]
+    },
+    {
+      "variant": "quality_weather",
+      "window_days": 30,
+      "common_samples": 0,
+      "tabular_columns": 0,
+      "sequence_shape": [
+        0,
+        30,
+        8
+      ]
+    },
+    {
+      "variant": "quality_flow",
+      "window_days": 7,
+      "common_samples": 17849,
+      "tabular_columns": 54,
+      "sequence_shape": [
+        17849,
+        7,
+        6
+      ]
+    },
+    {
+      "variant": "quality_flow",
+      "window_days": 14,
+      "common_samples": 17646,
+      "tabular_columns": 96,
+      "sequence_shape": [
+        17646,
+        14,
+        6
+      ]
+    },
+    {
+      "variant": "quality_flow",
+      "window_days": 30,
+      "common_samples": 17182,
+      "tabular_columns": 192,
+      "sequence_shape": [
+        17182,
+        30,
+        6
+      ]
+    },
+    {
+      "variant": "quality_temperature_flow",
+      "window_days": 7,
+      "common_samples": 17849,
+      "tabular_columns": 61,
+      "sequence_shape": [
+        17849,
+        7,
+        7
+      ]
+    },
+    {
+      "variant": "quality_temperature_flow",
+      "window_days": 14,
+      "common_samples": 17646,
+      "tabular_columns": 110,
+      "sequence_shape": [
+        17646,
+        14,
+        7
+      ]
+    },
+    {
+      "variant": "quality_temperature_flow",
+      "window_days": 30,
+      "common_samples": 17182,
+      "tabular_columns": 222,
+      "sequence_shape": [
+        17182,
+        30,
+        7
+      ]
+    }
+  ],
+  "assumptions": [
+    "CSV는 API 미인증 상태의 파이프라인 개발용 참고 원본이다.",
+    "처리량은 날짜·센터·원본 처리장 정확키만 연결한다.",
+    "처리장 구분없음은 별도 관측 계통이며 센터 대표값으로 단정하지 않는다.",
+    "ASOS 실측의 운영 시점 가용성은 미확인으로 연구용 가정 검토가 필요하다.",
+    "모델 학습·스케일링·결측 대치는 수행하지 않았다."
+  ]
+}

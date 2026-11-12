@@ -1,0 +1,39 @@
+{
+  "random_seed": 42,
+  "selection_metric": "Validation MAE",
+  "test_locked": "2025-01-01~2026-09-30; 선택에 미사용",
+  "baseline_replaced": false,
+  "rain_blank_policy": "공식 의미 미확인 공란은 NaN; LightGBM native missing 처리",
+  "selections_experimental": {
+    "bod_mg_l": {
+      "variant": "rainfall_d",
+      "window_days": 30,
+      "validation_mae": 23.70518240705341,
+      "locked_test": {
+        "mae": 23.046710936870564,
+        "rmse": 35.414306549493254,
+        "r2": 0.5855511543861802
+      }
+    },
+    "tn_mg_l": {
+      "variant": "rainfall_c",
+      "window_days": 30,
+      "validation_mae": 3.2279021635787775,
+      "locked_test": {
+        "mae": 3.4695008410009964,
+        "rmse": 5.031792839156777,
+        "r2": 0.5883365918407767
+      }
+    },
+    "tp_mg_l": {
+      "variant": "rainfall_c",
+      "window_days": 30,
+      "validation_mae": 0.51343252853445,
+      "locked_test": {
+        "mae": 0.5377239439064908,
+        "rmse": 0.9969058080566316,
+        "r2": 0.3954058442756313
+      }
+    }
+  }
+}

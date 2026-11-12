@@ -1,0 +1,9 @@
+{
+  "station_id": "108",
+  "rows": 3926,
+  "raw_blank": 2345,
+  "converted_blank_to_zero": 0,
+  "blank_kept_nan": 2345,
+  "rule": "수치 sumRn만 보존; 공식 공란 규칙 미확인 공란은 NaN",
+  "runtime_seconds": 5.0
+}
