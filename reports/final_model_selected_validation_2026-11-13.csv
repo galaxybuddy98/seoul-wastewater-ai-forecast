@@ -1,0 +1,4 @@
+﻿target,split,algorithm,input_config,window_days,candidate_id,eval_rows,mae,rmse,r2,persistence_mae,persistence_mae_improvement_pct,selection_split
+bod_mg_l,validation,xgboost,C,30,xgboost_C_w30,5056,23.46254468069801,39.653901707026634,0.4351478644043033,29.106428006329114,19.390504820460478,validation
+tn_mg_l,validation,xgboost,E,30,xgboost_E_w30,5056,3.2051001206742056,4.987582550211002,0.5844927454906262,4.102367286392405,21.871936447388414,validation
+tp_mg_l,validation,xgboost,C,30,xgboost_C_w30,5056,0.5127198643490106,1.2006759244282146,0.31057354260683556,0.6518660996835443,21.345830900254477,validation

@@ -1,0 +1,108 @@
+{
+  "audit_date": "2026-11-14",
+  "random_seed": 20261114,
+  "raw_csv_files_hashed": 947,
+  "raw_csv_bytes_hashed": 1238028181,
+  "prior_hashes_available": 9,
+  "prior_hash_mismatches": 0,
+  "rainfall_station_days_checked": 650,
+  "rainfall_exact_matches": 650,
+  "rainfall_mismatches": 0,
+  "rainfall_zero_without_confirmation": 0,
+  "water_quality": {
+    "raw_total_rows": 74917,
+    "raw_influent_rows": 28828,
+    "processed_rows": 28828,
+    "raw_key_duplicates": 0,
+    "outer_comparison_rows": 28828,
+    "matched_rows": 28828,
+    "mismatch_rows": 0,
+    "mixed_series_count": 0
+  },
+  "join_checks": [
+    {
+      "check": "base_to_enriched_row_count",
+      "checked": 28828,
+      "mismatches": 0
+    },
+    {
+      "check": "quality_values_unchanged",
+      "checked": 28828,
+      "mismatches": 0
+    },
+    {
+      "check": "asos_temperature_value",
+      "checked": 28828,
+      "mismatches": 0
+    },
+    {
+      "check": "asos_station_id",
+      "checked": 28828,
+      "mismatches": 0
+    },
+    {
+      "check": "seoul_rainfall_value",
+      "checked": 28828,
+      "mismatches": 0
+    },
+    {
+      "check": "seoul_rainfall_station_id",
+      "checked": 28828,
+      "mismatches": 0
+    }
+  ],
+  "window_checks": {
+    "tabular_rows": 27688,
+    "sample_windows": 128,
+    "feature_values_checked": 19584,
+    "feature_value_mismatches": 0,
+    "split_mismatches": 0,
+    "input_end_date_mismatches": 0,
+    "lstm_sequences_checked": 100,
+    "lstm_sequence_mismatches": 0
+  },
+  "row_lineage": [
+    {
+      "dataset": "서울시 강우 원본 CSV",
+      "stage": "raw_inventory",
+      "rows": 38322021,
+      "files": 945
+    },
+    {
+      "dataset": "서울시 강우",
+      "stage": "station_daily",
+      "rows": 270894,
+      "files": null
+    },
+    {
+      "dataset": "서울시 강우",
+      "stage": "center_daily",
+      "rows": 15704,
+      "files": null
+    },
+    {
+      "dataset": "수질",
+      "stage": "raw_csv",
+      "rows": 74917,
+      "files": 1
+    },
+    {
+      "dataset": "처리량",
+      "stage": "raw_csv",
+      "rows": 48771,
+      "files": 1
+    },
+    {
+      "dataset": "계통 일자료",
+      "stage": "observation_series_daily",
+      "rows": 28828,
+      "files": 1
+    },
+    {
+      "dataset": "30일 모델 입력",
+      "stage": "tabular_seoul_rainfall_w30",
+      "rows": 27688,
+      "files": 1
+    }
+  ]
+}

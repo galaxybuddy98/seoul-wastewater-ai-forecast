@@ -1,0 +1,4 @@
+﻿target,baseline_mae,baseline_high_mae,calendar_best,calendar_best_mae,recommended_model,recommended_validation_mae,recommended_high_mae,selection_basis
+bod_mg_l,23.46254468069801,55.73291099082163,season_weekday,23.278418127947216,season_weekday,23.278418127947216,55.54465314293761,Validation MAE; BOD weighted는 사전 목표 충족 시에만 후보; Test 미사용
+tn_mg_l,3.2051001206742056,8.781491243341618,weekday,3.197739076511769,weekday,3.197739076511769,8.727732976185191,Validation MAE; BOD weighted는 사전 목표 충족 시에만 후보; Test 미사용
+tp_mg_l,0.5127198643490106,1.177827337040848,weekday,0.5093089500040382,weekday,0.5093089500040382,1.1751766584216643,Validation MAE; BOD weighted는 사전 목표 충족 시에만 후보; Test 미사용

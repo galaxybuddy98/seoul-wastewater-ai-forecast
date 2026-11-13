@@ -1,0 +1,51 @@
+{
+  "random_seed": 42,
+  "window_days": 30,
+  "base_config": {
+    "bod_mg_l": "C",
+    "tn_mg_l": "E",
+    "tp_mg_l": "C"
+  },
+  "calendar_variants": {
+    "season": {
+      "season": true,
+      "weekday": false
+    },
+    "weekday": {
+      "season": false,
+      "weekday": true
+    },
+    "season_weekday": {
+      "season": true,
+      "weekday": true
+    }
+  },
+  "calendar_features": {
+    "season": [
+      "target_doy_sin",
+      "target_doy_cos"
+    ],
+    "weekday": [
+      "target_dow_0",
+      "target_dow_1",
+      "target_dow_2",
+      "target_dow_3",
+      "target_dow_4",
+      "target_dow_5",
+      "target_dow_6"
+    ]
+  },
+  "excluded_redundant_features": [
+    "month",
+    "season_category",
+    "is_weekend"
+  ],
+  "high_thresholds": {
+    "bod_mg_l": 180.0,
+    "tn_mg_l": 43.183,
+    "tp_mg_l": 4.311
+  },
+  "bod_high_weight": 2.0,
+  "selection_basis": "Validation MAE; BOD weighted는 사전 목표 충족 시만 후보; Test 미사용",
+  "test_interpretation": "반복 확인된 참고 구간; 독립 최종 홀드아웃 아님"
+}
