@@ -38,9 +38,12 @@ flowchart TB
     D --> F["계통별 일자료"]
     E --> F
     F --> G["30일 입력창<br/>t+1 예측 목표"]
-    G --> H["시간순 분할<br/>Train·Validation·Test"]
+    G --> Q["독립 품질 감사<br/>원본·강우·수질·입력 검증"]
+    Q --> H["시간순 분할<br/>Train·Validation·Test"]
     H --> I["모델 학습·비교<br/>Persistence · LightGBM<br/>XGBoost · LSTM"]
-    I --> J["성능 평가<br/>공통 키·오차·독립 감사"]
+    I --> J["성능 평가<br/>공통 키·오차 분석"]
+
+    N["권장 논리 흐름<br/>실제 감사: 모델 개발 후 수행"] -.-> Q
 ```
 
 | 자료 | 출처·서비스 | 기간·규모 |
