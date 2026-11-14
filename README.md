@@ -24,17 +24,23 @@
 ## 2. 데이터 수집·전처리 및 파이프라인
 
 ```mermaid
-flowchart LR
-    A[서울시 수질·처리량 API / 검증 CSV] --> D[스키마 정규화·품질 검증]
-    B[기상청 ASOS 기온] --> D
-    C[서울시 10분 강우 원자료] --> E[일강우·누적·lag 집계]
-    E --> F[센터 잠정 관측소 매핑]
-    D --> G[처리장·유입 관측 계통별 일자료]
-    F --> G
-    G --> H[30일 입력창 / t+1 목표]
-    H --> I[시간순 분할]
-    I --> J[Persistence / LightGBM / XGBoost / LSTM]
-    J --> K[공통 평가 키 비교·독립 감사]
+flowchart TB
+    subgraph INPUT["데이터 수집"]
+        direction LR
+        A["수질·처리량<br/>서울시 API·CSV"]
+        B["기온<br/>ASOS"]
+        C["강우<br/>서울시 10분 자료"]
+    end
+
+    A --> D["스키마 정규화<br/>품질 검증"]
+    B --> D
+    C --> E["일강우·누적·lag<br/>센터 매핑"]
+    D --> F["계통별 일자료"]
+    E --> F
+    F --> G["30일 입력창<br/>t+1 예측 목표"]
+    G --> H["시간순 분할<br/>Train·Validation·Test"]
+    H --> I["모델 학습·비교<br/>Persistence · LightGBM<br/>XGBoost · LSTM"]
+    I --> J["성능 평가<br/>공통 키·오차·독립 감사"]
 ```
 
 | 자료 | 출처·서비스 | 기간·규모 |
