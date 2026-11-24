@@ -2,10 +2,15 @@ __pycache__/
 .pytest_cache/
 *.py[cod]
 .env
+.env.example
 .planning/
 .serena/
 .codex/
 .agents/
+.superpowers/
+AGENTS.md
+docs/superpowers/
+docs/tool_inventory.md
 data/raw/
 data/processed/
 data/external/
@@ -13,3 +18,14 @@ data/interim/
 data/cache/
 cache/
 results/
+
+# 로컬 실행·분석 산출물: 공개용 선별본은 하위 폴더에 별도 보관
+reports/*.csv
+reports/*.json
+reports/*.md
+reports/data_quality/influent_target_outlier_candidates.csv
+reports/data_quality/missing_runs.csv
+reports/data_quality/zero_value_events.csv
+
+# README에서 사용하지 않는 과거 시각화는 로컬에만 보존
+docs/images/*_validation*.png

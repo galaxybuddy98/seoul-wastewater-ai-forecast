@@ -1,4 +1,0 @@
-﻿stnId,stnNm,rows,sum_rain_blank,blank_with_positive_duration,blank_with_temperature_missing,decision
-108,서울,3926,2345,1,0,공란 일괄 0mm 변환 보류
-112,인천,3926,2446,2,0,공란 일괄 0mm 변환 보류
-119,수원,3926,2381,0,0,공란 일괄 0mm 변환 보류

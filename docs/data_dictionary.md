@@ -106,4 +106,4 @@ API의 원 필드는 수질 계통 STATS_SE, 목표값 BOD, TN, TP이며 샘플 
 | `seoul_rainfall_missing` | 당일 일강우 미확정 여부 | 0/1 |
 | `seoul_rainfall_quality_status` | 완전, 기록 없음, 구간 불완전, 중복 충돌 | 범주 |
 
-센터-관측소 대응은 현재 `provisional`이며 ASOS 108 공통 기상자료를 대체하지 않는다. 상세 판정은 `reports/seoul_rainfall_report.md`를 따른다.
+센터-관측소 대응은 현재 `provisional`이며 ASOS 108 공통 기상자료를 대체하지 않는다. 상세 판정은 `reports/data_quality/seoul_rainfall.md`를 따른다.
