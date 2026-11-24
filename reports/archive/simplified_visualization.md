@@ -47,7 +47,7 @@ Test 확대 그림은 같은 월·일의 2025년 구간을 사용한다. BOD 고
 - 이미지: `results/figures/final_model_simplified_2026-11-14/`
 - 그림 목록: `reports/final_model_simplified_manifest_2026-11-14.csv`
 - 실행 요약: `reports/final_model_simplified_summary_2026-11-14.json`
-- 재현 스크립트: `scripts/visualize_simplified_final_predictions.py`
-- 실행 명령: `python scripts/visualize_simplified_final_predictions.py`
+- 재현 스크립트: `scripts/visualization/visualize_simplified_final_predictions.py`
+- 실행 명령: `python -m scripts.visualization.visualize_simplified_final_predictions`
 
 모델 재학습, 원본 CSV 재처리, API 호출, 기존 이미지 삭제, README 수정 및 GitHub Push는 수행하지 않았다.

@@ -65,6 +65,6 @@ README에서는 1→2→3으로 문제와 핵심 한계를 먼저 보여주고, 
 - PNG 61개(300dpi), 대표 SVG 15개, 총 76개 이미지 파일
 - 전체·계통별 지표, BOD 고농도 지표, 그림 목록은 `reports/final_model_visualization_*_2026-11-14.*`에 저장했다.
 - 한국어 글꼴은 `Malgun Gothic`을 사용했다.
-- 재현 명령: `python scripts/visualize_final_model_performance.py`
+- 재현 명령: `python -m scripts.visualization.visualize_final_model_performance`
 
 원자료 및 기존 모델·예측 파일은 변경하지 않는다.

@@ -1,9 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="890" viewBox="0 0 1200 890" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="830" viewBox="0 0 1200 830" role="img" aria-labelledby="title desc">
   <title id="title">서울시 물재생센터 유입수질 예측 데이터 파이프라인</title>
-  <desc id="desc">서울시 수질, ASOS 기온, 서울시 강우를 정제·결합하고 30일 입력 생성, 독립 감사, 시간순 분할, 모델 비교와 최종 평가로 이어지는 흐름</desc>
+  <desc id="desc">서울시 수질과 ASOS 기온은 수질·기온 정제로, 서울시 강우는 일별 강우 집계로 연결되고, 계통별 결합과 30일 입력 생성, 독립 감사, 시간순 분할, 모델 비교와 최종 평가로 이어지는 흐름</desc>
   <defs>
-    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
-      <path d="M 0 0 L 10 5 L 0 10 z" fill="#64748b"/>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path class="arrow-head" d="M 0 0 L 10 5 L 0 10 z"/>
     </marker>
     <style>
       text { font-family: "Pretendard", "Noto Sans KR", "Malgun Gothic", sans-serif; fill: #172033; }
@@ -17,7 +17,7 @@
       .label { font-size: 18px; font-weight: 650; text-anchor: middle; dominant-baseline: middle; }
       .sub { font-size: 14px; font-weight: 450; fill: #475569; text-anchor: middle; }
       .arrow { stroke: #64748b; stroke-width: 2.5; fill: none; marker-end: url(#arrow); }
-      .note { font-size: 14px; fill: #475569; text-anchor: middle; }
+      .arrow-head { fill: #64748b; }
       @media (prefers-color-scheme: dark) {
         text { fill: #f1f5f9; }
         .source { fill: #172554; stroke: #60a5fa; }
@@ -25,8 +25,9 @@
         .audit { fill: #052e2b; stroke: #34d399; }
         .model { fill: #431407; stroke: #fb923c; }
         .final { fill: #2e1065; stroke: #a78bfa; }
-        .sub, .note { fill: #cbd5e1; }
+        .sub { fill: #cbd5e1; }
         .arrow { stroke: #94a3b8; }
+        .arrow-head { fill: #94a3b8; }
       }
     </style>
   </defs>
@@ -36,51 +37,61 @@
   <rect x="90" y="75" width="280" height="82" class="box source"/>
   <text x="230" y="108" class="label">서울시 수질</text>
   <text x="230" y="137" class="sub">BOD · T-N · T-P · SS</text>
+
   <rect x="460" y="75" width="280" height="82" class="box source"/>
   <text x="600" y="108" class="label">ASOS 기온</text>
   <text x="600" y="137" class="sub">일평균 기온</text>
+
   <rect x="830" y="75" width="280" height="82" class="box source"/>
   <text x="970" y="108" class="label">서울시 강우</text>
   <text x="970" y="137" class="sub">10분 관측자료</text>
 
-  <path d="M230 157 V205 H420" class="arrow"/>
-  <path d="M600 157 V205" class="arrow"/>
-  <path d="M970 157 V205 H780" class="arrow"/>
-  <rect x="170" y="205" width="340" height="82" class="box process"/>
-  <text x="340" y="238" class="label">수질·기온 정제</text>
-  <text x="340" y="267" class="sub">유입수 필터링 · 날짜 정렬</text>
-  <rect x="690" y="205" width="340" height="82" class="box process"/>
-  <text x="860" y="238" class="label">일별 강우 집계</text>
-  <text x="860" y="267" class="sub">결측·중복·완전성 검증</text>
+  <line x1="230" y1="157" x2="230" y2="215" class="arrow"/>
+  <line x1="600" y1="157" x2="600" y2="215" class="arrow"/>
+  <line x1="970" y1="157" x2="970" y2="215" class="arrow"/>
 
-  <path d="M340 287 V335 H520" class="arrow"/>
-  <path d="M860 287 V335 H680" class="arrow"/>
-  <rect x="330" y="335" width="540" height="82" class="box process"/>
-  <text x="600" y="368" class="label">센터·처리장·관측 계통별 결합</text>
-  <text x="600" y="397" class="sub">계통 간 혼합 방지 · 원본 식별자 보존</text>
+  <rect x="120" y="215" width="530" height="82" class="box process"/>
+  <text x="385" y="248" class="label">수질·기온 정제</text>
+  <text x="385" y="277" class="sub">유입수 필터링 · 날짜 정렬</text>
 
-  <path d="M600 417 V460" class="arrow"/>
-  <rect x="330" y="460" width="540" height="82" class="box process"/>
-  <text x="600" y="493" class="label">과거 30일 입력 데이터 생성</text>
-  <text x="600" y="522" class="sub">다음 날 BOD · T-N · T-P 목표</text>
+  <rect x="750" y="215" width="330" height="82" class="box process"/>
+  <text x="915" y="248" class="label">일별 강우 집계</text>
+  <text x="915" y="277" class="sub">결측·중복·완전성 검증</text>
 
-  <path d="M600 542 V585" class="arrow"/>
-  <rect x="330" y="585" width="540" height="82" class="box audit"/>
-  <text x="600" y="618" class="label">데이터 품질 검증 및 독립 감사</text>
-  <text x="600" y="647" class="sub">원본 무결성 · 독립 재계산 · 누수 검증</text>
+  <path d="M385 297 V325 H500 V350" class="arrow"/>
+  <path d="M915 297 V325 H700 V350" class="arrow"/>
 
-  <path d="M600 667 V710" class="arrow"/>
-  <rect x="100" y="710" width="300" height="82" class="box process"/>
-  <text x="250" y="743" class="label">시간순 분할</text>
-  <text x="250" y="772" class="sub">Train · Validation · Test</text>
-  <path d="M400 751 H450" class="arrow"/>
-  <rect x="450" y="710" width="300" height="82" class="box model"/>
-  <text x="600" y="743" class="label">모델 학습·비교</text>
-  <text x="600" y="772" class="sub">LightGBM · XGBoost · LSTM</text>
-  <path d="M750 751 H800" class="arrow"/>
-  <rect x="800" y="710" width="300" height="82" class="box final"/>
-  <text x="950" y="743" class="label">최종 XGBoost</text>
-  <text x="950" y="772" class="sub">성능 평가 · 오차 분석</text>
+  <rect x="330" y="350" width="540" height="82" class="box process"/>
+  <text x="600" y="383" class="label">센터·처리장·관측 계통별 결합</text>
+  <text x="600" y="412" class="sub">계통 간 혼합 방지 · 원본 식별자 보존</text>
 
-  <text x="600" y="840" class="note">권장 논리적 흐름입니다. 독립 감사는 실제 모델 개발 이후 수행했으며, 재현 시 학습 전 품질 게이트로 배치했습니다.</text>
+  <line x1="600" y1="432" x2="600" y2="475" class="arrow"/>
+
+  <rect x="330" y="475" width="540" height="82" class="box process"/>
+  <text x="600" y="508" class="label">과거 30일 입력 데이터 생성</text>
+  <text x="600" y="537" class="sub">다음 날 BOD · T-N · T-P 목표</text>
+
+  <line x1="600" y1="557" x2="600" y2="600" class="arrow"/>
+
+  <rect x="330" y="600" width="540" height="82" class="box audit"/>
+  <text x="600" y="633" class="label">데이터 품질 검증 및 독립 감사</text>
+  <text x="600" y="662" class="sub">원본 무결성 · 독립 재계산 · 누수 검증</text>
+
+  <path d="M600 682 V706 H250 V730" class="arrow"/>
+
+  <rect x="100" y="730" width="300" height="82" class="box process"/>
+  <text x="250" y="763" class="label">시간순 분할</text>
+  <text x="250" y="792" class="sub">Train · Validation · Test</text>
+
+  <line x1="400" y1="771" x2="450" y2="771" class="arrow"/>
+
+  <rect x="450" y="730" width="300" height="82" class="box model"/>
+  <text x="600" y="763" class="label">모델 학습·비교</text>
+  <text x="600" y="792" class="sub">LightGBM · XGBoost · LSTM</text>
+
+  <line x1="750" y1="771" x2="800" y2="771" class="arrow"/>
+
+  <rect x="800" y="730" width="300" height="82" class="box final"/>
+  <text x="950" y="763" class="label">최종 XGBoost</text>
+  <text x="950" y="792" class="sub">성능 평가 · 오차 분석</text>
 </svg>

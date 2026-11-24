@@ -115,8 +115,8 @@
 ## 재현
 
 ```powershell
-python -m scripts.collect_asos_hourly
-python -m scripts.build_hourly_validated_rainfall
+python -m scripts.data_collection.collect_asos_hourly
+python -m scripts.preprocessing.build_hourly_validated_rainfall
 python -m pytest
 ```
 

@@ -76,7 +76,7 @@ Test MAE **0.2439mg/L**, R² **0.6535**, n=638, Persistence 대비 MAE **29.63% 
 | 기온 | 기상청 ASOS 서울 108 중심, 수질 28,828행에 결합 |
 | 강우 | 서울시 10분 관측 파일 944개, 38,322,021행, 관측소 69개 |
 
-원본 농도는 임의 평균·보간하지 않았고, 미확인 강우 결측은 `NaN`으로 유지했습니다. 처리량 `1차+2차`는 공식 유입유량이 아닌 검증 가설입니다. 자세한 기준은 [수질 품질 보고서](reports/data_quality/water_quality.md)와 [센터·계통 통합 규칙](docs/integration_rules.md)을 참고하세요.
+원본 농도는 임의 평균·보간하지 않았고, 미확인 강우 결측은 `NaN`으로 유지했습니다. 처리량 `1차+2차`는 공식 유입유량이 아닌 검증 가설입니다. 자세한 기준은 [수질 품질 보고서](reports/data_quality/water_quality.md)와 [센터·계통 통합 규칙](docs/data/integration_rules.md)을 참고하세요.
 
 ## 4. 데이터 신뢰성 검증
 
@@ -108,7 +108,7 @@ Test MAE **0.2439mg/L**, R² **0.6535**, n=638, Persistence 대비 MAE **29.63% 
 - **SS:** XGBoost T-N만 0.31% 개선되어 최종 공통 피처로 채택하지 않았습니다.
 - **고농도 가중:** 전체 성능 악화를 제한했지만 고농도 MAE 10% 개선 목표에는 미달했습니다.
 
-상세 결과는 [모델 비교](reports/experiments/model_comparison.md), [달력 피처](reports/experiments/calendar_features.md), [SS 피처](reports/experiments/ss_feature.md), [최종 예측 분석](reports/final/prediction_analysis.md)에서 확인할 수 있습니다.
+상세 결과는 [모델 비교](reports/experiments/comparison/model_comparison.md), [달력 피처](reports/experiments/xgboost/calendar_features.md), [SS 피처](reports/experiments/shared_features/ss_feature.md), [최종 예측 분석](reports/final/prediction_analysis.md)에서 확인할 수 있습니다.
 
 ## 6. 한계 및 개선 방향
 
@@ -136,31 +136,39 @@ python -m pytest -q
 API 수집에는 `SEOUL_API_KEY`, `DATA_GO_KR_API_KEY` 환경변수가 필요합니다. 실제 키를 담은 `.env`와 키 예시 파일은 공개 저장소에서 제외합니다. 원본 CSV·Parquet·NPZ·모델 가중치도 Git에서 제외되므로 전체 재현에는 서울시·기상청 외부 원자료를 별도로 준비해야 합니다.
 
 ```powershell
-python scripts/collect_asos_daily.py
-python scripts/process_seoul_rainfall.py
-python scripts/build_training_dataset.py
-python scripts/train_xgboost_comparison.py --train-one --config C --window 30 --target bod_mg_l
-python scripts/run_preprocessing_audit.py
+python -m scripts.data_collection.collect_asos_daily
+python -m scripts.preprocessing.process_seoul_rainfall
+python -m scripts.preprocessing.build_training_dataset
+python -m scripts.training.xgboost.train_xgboost_comparison --train-one --config C --window 30 --target bod_mg_l
+python -m scripts.validation.run_preprocessing_audit
 ```
 
 ## 8. 프로젝트 구조
 
 ```text
-├─ configs/                 # 관측소·수집 설정
-├─ docs/                    # 설계·데이터 사전·대표 이미지
+├─ configs/                 # 관측소·수집·통합 설정
+├─ docs/                    # data·modeling·project·validation 문서
 ├─ reports/
 │  ├─ final/                # 최종 성능·예측·오차 분석
 │  ├─ data_quality/         # 데이터 품질·독립 감사
-│  ├─ experiments/          # 모델·피처 실험
+│  ├─ experiments/          # comparison·모델·공통 피처 실험
 │  └─ archive/              # 과거 검토 기록
-├─ scripts/                 # 수집·전처리·학습·평가 진입점
+├─ scripts/
+│  ├─ data_collection/      # API·기상 수집
+│  ├─ preprocessing/        # 강우·학습 데이터셋 생성
+│  ├─ training/             # lightgbm·xgboost·lstm·shared
+│  ├─ evaluation/           # 모델 비교·오차 분석
+│  ├─ visualization/        # 최종 예측 시각화
+│  └─ validation/           # 데이터·산출물 검증
 ├─ src/
 │  ├─ audit/                # 독립 감사 로직
 │  ├─ data/                 # API·캐시·서울시 강우 처리
 │  ├─ evaluation/           # 평가 키·시각화 검증
-│  ├─ models/               # LightGBM·XGBoost·LSTM
+│  ├─ models/               # lightgbm·xgboost·lstm·shared
 │  └─ preprocessing/        # 스키마·결합·윈도 생성
-└─ tests/                   # 누수·계통 혼합·모델·감사 회귀 테스트
+└─ tests/                   # 기능·알고리즘별 회귀 테스트
 ```
+
+기존 실행 명령과 import 호환성을 위해 `scripts/*.py`와 `src/models/*.py`에는 얇은 진입점만 남겼으며, 실제 구현은 위 기능·알고리즘별 하위 폴더에서 관리합니다.
 
 보고서 디렉터리에는 포트폴리오 이해와 결과 검증에 필요한 선별본만 공개합니다. 실행 중 생성되는 상세 CSV·JSON·로그는 로컬에 보존하되 Git 추적에서 제외합니다.
