@@ -55,7 +55,6 @@ Test MAE **0.2439mg/L**, R² **0.6535**, n=638, Persistence 대비 MAE **29.63% 
 
 ![서울시 물재생센터 유입수질 예측 파이프라인](docs/images/data_pipeline.svg)
 
-> 그림은 권장 논리적 흐름입니다. 독립 감사는 실제 모델 개발 이후 수행했지만, 재현·운영 시에는 모델 학습 전 품질 게이트로 적용하는 것이 적절합니다.
 
 | 단계 | 핵심 처리 |
 |---|---|
@@ -91,7 +90,7 @@ Test MAE **0.2439mg/L**, R² **0.6535**, n=638, Persistence 대비 MAE **29.63% 
 
 ## 5. 모델 비교 및 개선 실험
 
-동일한 B 구성(과거 수질+ASOS 기온), 30일 입력과 공통 Validation 표본에서 Persistence(직전 관측값을 다음 날 예측값으로 사용하는 기준모델) 및 세 알고리즘을 비교했습니다.
+과거 수질·ASOS 기온 자료를 활용하여 동일한 30일 입력과 공통 Validation 표본에서 Persistence·LightGBM·XGBoost·LSTM의 평균절대오차(MAE)를 비교했습니다.
 
 | 목표 | Persistence | LightGBM | XGBoost | LSTM |
 |---|---:|---:|---:|---:|
