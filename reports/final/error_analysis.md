@@ -1,5 +1,9 @@
 # 계통별·계절별 오차 원인 분석
 
+이 보고서는 계절·요일 피처를 추가하기 전의 목표별 강우 구성 모델을 진단한 기록이다. 이후 달력 피처 실험 결과와 최신 추천 모델은 [계절·요일 실험](../experiments/xgboost/calendar_features.md)과 [최종 예측 분석](prediction_analysis.md)을 따른다.
+
+입력 구성 C는 `수질·ASOS 기온·서울시 일강우량`, E는 C에 `1~3일 전 강우량·3/7일 누적강우량·최대 1시간 강우량`을 추가한 30일 입력이며, P는 Persistence 기준모델이다.
+
 ## 분석 계약
 
 - 저장된 LightGBM·XGBoost·LSTM·Persistence 예측만 사용했으며 모델 재학습은 수행하지 않았다.

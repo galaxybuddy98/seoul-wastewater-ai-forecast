@@ -28,7 +28,7 @@ CP949, 48,771행×5열, 같은 기간이다.
 | 물재생센터명칭 | object | facility | 4개 센터 |
 | 처리장구분 | object | plant | 처리장 외 중계펌프장·오니처리장 포함 |
 | 1차하수처리량 | float64 | primary_treatment_volume | 0·결측 다수, 유입유량 단정 금지 |
-| 2차하수처리량 | float64 | secondary_treatment_volume | 1차와 합산 금지, 0값 93 |
+| 2차하수처리량 | float64 | secondary_treatment_volume | 공식 총량으로 단정하거나 무조건 합산 금지, 0값 93 |
 
 단위와 계측 경계는 API 메타데이터 또는 담당기관 확인이 필요하다.
 

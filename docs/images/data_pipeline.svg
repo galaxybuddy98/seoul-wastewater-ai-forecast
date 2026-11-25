@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="830" viewBox="0 0 1200 830" role="img" aria-labelledby="title desc">
   <title id="title">서울시 물재생센터 유입수질 예측 데이터 파이프라인</title>
-  <desc id="desc">서울시 수질과 ASOS 기온은 수질·기온 정제로, 서울시 강우는 일별 강우 집계로 연결되고, 계통별 결합과 30일 입력 생성, 독립 감사, 시간순 분할, 모델 비교와 최종 평가로 이어지는 흐름</desc>
+  <desc id="desc">서울시 수질과 ASOS 기온은 수질·기온 정제로, 서울시 강우는 일별 강우 집계로 연결되고, 계통별 결합과 30일 입력 생성, 데이터 품질 검증, 시간순 분할, 모델 비교와 최종 평가로 이어지는 흐름</desc>
   <defs>
     <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
       <path class="arrow-head" d="M 0 0 L 10 5 L 0 10 z"/>
@@ -74,7 +74,7 @@
   <line x1="600" y1="557" x2="600" y2="600" class="arrow"/>
 
   <rect x="330" y="600" width="540" height="82" class="box audit"/>
-  <text x="600" y="633" class="label">데이터 품질 검증 및 독립 감사</text>
+  <text x="600" y="633" class="label">데이터 품질 검증</text>
   <text x="600" y="662" class="sub">원본 무결성 · 독립 재계산 · 누수 검증</text>
 
   <path d="M600 682 V706 H250 V730" class="arrow"/>

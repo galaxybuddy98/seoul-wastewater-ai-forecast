@@ -3,7 +3,7 @@
 ## 분석 범위와 검증
 
 - 기존 저장 예측값만 사용했으며 모델 재학습, 원본 재처리, API 호출은 수행하지 않았다.
-- 최종 모델은 Validation MAE로 선정된 BOD `XGBoost C/30 + 계절·요일`, T-N `XGBoost E/30 + 요일`, T-P `XGBoost C/30 + 요일`이다.
+- 최종 모델은 Validation MAE로 선정된 30일 XGBoost이며, BOD는 `수질·ASOS 기온·서울시 일강우량·계절·요일`, T-N은 `수질·ASOS 기온·서울시 일강우량·강우 파생변수·요일`, T-P는 `수질·ASOS 기온·서울시 일강우량·요일`을 사용한다.
 - Validation 5,056개, Test 3,831개의 `target_date × series_id × target` 평가 키를 사용했다. 최종 XGBoost와 Persistence 간 키·실제값 일치를 검증했고 중복 키는 0건이었다.
 - 7개 계통은 중랑 제1~4처리장, 난지·탄천·서남 처리장 구분없음이다.
 - Test는 반복적으로 확인된 참고 평가 구간이며 독립적인 최종 홀드아웃으로 해석하지 않는다.
@@ -46,18 +46,11 @@
 
 Test 확대 그림에는 같은 월·일의 2025년 구간을 적용했다. 고농도 그림은 실제값 기준 상위 고농도 사건과 전후 7일을 함께 표시하며, 고농도를 예측 시점에 아는 정보로 사용하지 않았다.
 
-## 대표 그래프와 README 권장 순서
+## 현재 README 대표 그래프 구성
 
-1. `scatter_residual_validation.png` — 세 항목의 전체 적합도와 고농도 과소예측을 한 장에서 제시
-2. `timeseries_zoom_bod_mg_l_validation.png` — 일반 계통과 중랑 제2처리장의 차이
-3. `high_bod_context_validation.png` — 고농도 전후 XGBoost와 Persistence의 상반된 동작
-4. `timeseries_zoom_tn_mg_l_validation.png` — T-N 추세 추종과 탄천 계통 한계
-5. `timeseries_zoom_tp_mg_l_validation.png` — T-P 급등 축소 현상
-6. `algorithm_metrics_validation.png` — 동일 표본 알고리즘 비교
-7. `feature_experiment_summary.png` — 강우·달력·SS 실험을 구분해 소개
-8. `scatter_residual_test.png` — 반복 확인된 참고 Test 성능과 일반화 한계
+현재 README는 난지물재생센터의 전체 Test 기간 T-N 그래프를 먼저 제시하고, BOD·T-P 그래프는 접기·펼치기 영역에 배치한다. 세 그래프는 실제값과 최종 XGBoost 예측값만 표시하며 평활화·보간하지 않는다. 이후 `docs/images/data_pipeline.svg`로 데이터 처리 흐름을 제시한다.
 
-README에서는 1→2→3으로 문제와 핵심 한계를 먼저 보여주고, 4→5로 항목별 분석, 6→7로 실험 근거, 마지막에 8과 Test 한계를 배치하는 구성이 적합하다.
+이 보고서에서 생성한 Validation 확대·고농도·산점도·알고리즘 비교 그림은 상세 분석 산출물로 계속 보존한다.
 
 ## 산출물과 재현
 

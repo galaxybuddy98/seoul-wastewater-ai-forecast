@@ -9,6 +9,19 @@
 - 모델 선택은 Validation MAE만 사용했다. Test는 반복 확인된 참고 구간으로 완전히 독립적인 최종 홀드아웃이 아니다.
 - XGBoost 3.4.1과 CPU PyTorch 2.15.0을 사용했으며 CUDA 장치는 없었다.
 
+서울시 강우 실험의 입력 구성은 다음과 같다.
+
+| 식별자 | 입력 구성 |
+|---|---|
+| P | Persistence 기준모델 |
+| A | 과거 수질(BOD·T-N·T-P) |
+| B | 수질·ASOS 기온 |
+| C | B + 서울시 일강우량 |
+| D | C + 1~3일 전 강우량 + 3·7일 누적강우량 |
+| E | D + 최대 1시간 강우량 |
+
+이 C·D는 ASOS `sumRn` 결측 허용 실험의 C·D와 다른 구성이다.
+
 ## Validation 선택 결과
 
 선택 윈도: `{"bod_mg_l": {"lightgbm": 14, "lstm": 30, "xgboost": 30}, "tn_mg_l": {"lightgbm": 30, "lstm": 30, "xgboost": 30}, "tp_mg_l": {"lightgbm": 30, "lstm": 30, "xgboost": 30}}`
@@ -113,3 +126,5 @@ LightGBM 55.61초는 기존 전체 기준모델 실행 기록으로 B 구성만�
 - 독립 리뷰에서 Critical 0건, Important 2건(동일 조건 평가키 strict 검증, `tabulate` 의존성)이 확인되어 모두 수정했다.
 - 리뷰 수정 후 영향 범위 테스트 8개, `compileall`, `pip check`, `git diff --check`는 통과했다.
 - 리뷰 수정 후 전체 회귀 재실행은 Windows 가상 메모리 고갈로 pytest 수집 중 `MemoryError`가 발생했다. 코드 실패로 판정하지 않았으며, 메모리 여유 확보 후 `python -m pytest -q` 재확인이 필요하다.
+
+후속 최종 검증에서 전체 자동 테스트 107개가 통과했다. 위 `MemoryError`는 이 보고서 작성 당시의 검증 이력으로 보존한다.

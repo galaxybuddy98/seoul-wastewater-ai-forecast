@@ -19,7 +19,7 @@ Persistence·LightGBM·LSTM은 새 시계열에서 제외했다. 기존 알고�
 
 모든 그림은 계통별 독립 시계열로 만들었다. 날짜 공백은 선을 끊었으며 결측값 보간을 수행하지 않았다. MAE·R²·표본 수는 별도 상자 대신 제목 아래 한 줄로 배치했다.
 
-## 대표 그래프 8개와 README 권장 순서
+## 대표 그래프 8개와 당시 README 권장 순서
 
 1. `zoom_bod_mg_l_validation.png` — Validation 실제 변화량으로 선정한 90일 BOD, 7계통 비교
 2. `high_bod_context_validation.png` — BOD 180mg/L 이상 급등 전후 7일과 과소예측
@@ -31,6 +31,8 @@ Persistence·LightGBM·LSTM은 새 시계열에서 제외했다. 기존 알고�
 8. `overview_bod_mg_l_test.png` — 반복 확인된 참고 Test의 7계통 BOD
 
 README에서는 1~2로 핵심 성능과 한계를 먼저 보여주고, 3~7로 항목·계통별 차이를 설명한 뒤, 8에서 참고 Test 결과와 한계를 명시하는 순서를 권장한다. 기존 다중 모델 시계열은 이 목록에서 제외했다.
+
+위 순서는 이 시각화 작업 당시의 제안이다. 현재 README는 난지물재생센터 전체 Test 기간 T-N 그래프를 먼저 배치하고 BOD·T-P를 접기·펼치기 영역에 제시한다.
 
 ## 기간 선정과 주의사항
 
